@@ -36,16 +36,16 @@ html {
 }
 .nav {
 	float: right;
-	padding: 20px 0px 0px 0px;
-	margin: 0px 0px 1px 0px;
+	padding: 20px 0 0;
+	margin: 0 1px 0;
 }
 ul { 
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 .nav li {
 	display: inline-block;
-	padding: 0px 21px 20px 21px;
+	padding: 0 21px 20px 21px;
 }
 .nav li:hover .l2nav li { 
 	display: block;
@@ -73,7 +73,7 @@ ul {
 	clear: both;
 	text-align: center;
 	background: #fff;
-	padding: 20px 0px 13px 0px;
+	padding: 20px 0 13px;
 }
 .l2nav li a {
 	color: #6c6c6c;
@@ -141,7 +141,7 @@ ul {
 	line-height: 33px;
 	}
 .slider-content-button {
-	margin: 0px 0px 0px 12px;
+	margin: 0 0 12px;
 	width: 160px;
 	background: #5094f2;
 	border-radius: 2px;
@@ -149,11 +149,11 @@ ul {
 .slider-content-button img {
 	float: left;
 	display: block;
-	margin: 5px 0px 0px 12px;
+	margin: 5px 0 0 12px;
 }
 .slider-content-button p {
 	float: left;
-	margin: 0px 0px 0px 9px;
+	margin: 0 0 9px;
 	font-size: 19px;
 }
 .slider-content-button a {
@@ -165,7 +165,7 @@ content {
 }
 .top-content {
 	max-width: 1024px;
-	margin: 57px auto 0px;
+	margin: 57px auto 0;
 }
 .top-content-text {
 	display: inline-block;
@@ -193,7 +193,7 @@ content {
 }
 .bottom-content-container {
 	max-width: 1024px;
-	margin: 95px auto 0px;
+	margin: 95px auto 0;
 }
 .bottom-content {
 	float: left;
