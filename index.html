@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.5/css/swiper.min.css">
 	</head>
 	<body>
+    <div class="page-container">
 		<header class="header">
 				<div class="header-container clearfix">
 					<div class="logo">
@@ -16,7 +17,7 @@
 							<img src="images/logo.png" width="178" height="44" alt="logo" >
 						</a>
 					</div>
-					<nav class="nav  clearfix">
+					<nav class="nav">
 						<ul>
 							<li>
 								<a href="#">Home</a>
@@ -33,62 +34,62 @@
 					</nav>
 				</div>
 		</header>
-		<div class="slider">
-			<div class="swiper-container">
-		    	<div class="swiper-wrapper">
-		        	<div class="swiper-slide">
-		        		<div class="slider-content clearfix">
-		        			<img src="images/iphone.svg" width="345" height="436" alt="iphone" >
-		        			<div class="slider-content-text"><p><span class="slider-content-text-span">Lorem Ipsum is simply</span>
-
-		        			dummy text of the <br>  printing &amp  typesettin</p>
-		        				<div class="slider-content-button clearfix"><a href="#"><img src="images/checkbox.svg" width="23" height="23" alt="checkbox" ><p>Sign up now</p></a></div>
-		        			</div>
-		        		</div>
-		        	</div>
-		        	<div class="swiper-slide">Slide 2</div>
-		        	<div class="swiper-slide">Slide 3</div>
-		    	</div>
-		    	<div class="swiper-button-prev"></div>
-		    	<div class="swiper-button-next"></div>
-			</div>
-		</div>
-		<content>
-			<div class="top-content">
-				<div class="top-content-text">
+        <main class="content">
+            <section class="slider">
+				<div class="swiper-container">
+			    	<div class="swiper-wrapper">
+			        	<div class="swiper-slide">
+			        		<div class="slider-content clearfix">
+			        			<img src="images/iphone.svg" width="345" height="436" alt="iphone" >
+			        			<div class="slider-content-text"><p><span class="slider-content-text-span">Lorem Ipsum is simply</span>
+			        			dummy text of the <br>  printing &amp  typesettin</p>
+			        				<div class="slider-content-button clearfix"><a href="#"><img src="images/checkbox.svg" width="23" height="23" alt="checkbox" ><p>Sign up now</p></a></div>
+			        			</div>
+			        		</div>
+			        	</div>
+			        	<div class="swiper-slide">Slide 2</div>
+			        	<div class="swiper-slide">Slide 3</div>
+			    	</div>
+			    	<div class="swiper-button-prev"></div>
+			    	<div class="swiper-button-next"></div>
+				</div>
+			</section>
+            <section class="decorated-content">
+				<div class="container">
 					<a href="#"><img src="images/mid-container1.svg" width="186" height="186" alt="mid-container1" ></a>
-					<p><span class="span-top"><a href="#">Contrary to popular</a></span> Lorem Ipsum is not simply random text. It has roots in a piece</p> 
+					<p><span class="span-decorated"><a href="#">Contrary to popular</a></span> Lorem Ipsum is not simply random text. It has roots in a piece</p> 
 				</div>
-				<div class="top-content-text">
+				<div class="container">
 					<a href="#"><img src="images/mid-container2.svg" width="186" height="186" alt="/mid-containe2" ></a>
-					<p><span class="span-top"><a href="#">Contrary to popular</a></span> Lorem Ipsum is not simply random text. It has roots in a piece</p> 
+					<p><span class="span-decorated"><a href="#">Contrary to popular</a></span> Lorem Ipsum is not simply random text. It has roots in a piece</p> 
 				</div>
-				<div class="top-content-text">
+				<div class="container">
 					<a href="#"><img src="images/mid-container3.svg" width="186" height="186" alt="mid-container3" ></a>
-					<p><span class="span-top"><a href="#">Contrary to popular</a></span> Lorem Ipsum is not simply random text. It has roots in a piece</p> 
+					<p><span class="span-decorated"><a href="#">Contrary to popular</a></span> Lorem Ipsum is not simply random text. It has roots in a piece</p> 
 				</div>
-			</div>
-			<div class="bottom-content-container  clearfix">
-				<div class="bottom-content">
-					<span class="span-bottom-left">The Shopping cart</span>
+			</section>
+            <section class="text-content clearfix"> 
+				<div class="container">
+					<span class="span-text-left">The Shopping cart</span>
 					<a href="#"><img src="images/cart.svg" width="371" height="279" alt="cart" ></a>
 				</div>
-				<div class="bottom-content">
+				<div class="container">
 					<p>
-						<span class="span-bottom-right">Some Bullet text here</span> Lorem Ipsum is simply dummy text of the printing and 	typesetting 
+						<span class="span-text-right">Some Bullet text here</span> Lorem Ipsum is simply dummy text of the printing and 	typesetting 
 						Lorem Ipsum has been the industry's standard dummy text ever 
-						When an unknown printer took a galley of type and scrambled 
+						When an unknown printer took a galley of type and scrambled <br>
 						It to make a type specimen book. It has survived not only five centuries
-						But also the leap into electronic typesetting,
+						But also the leap into electronic typesetting, <br>
 						Remaining essentially unchanged. It was popularised 
 						The release of Letraset sheets containing Lorem Ipsum passages
 					</p>
 				</div>
-			</div>
-		</content>
+			</section>
 		<footer class="footer">
-			<div class="copyright">
-				<p>Copyright © 2012-2013 cssauthor.com</p>
+			<div class="footer-inner">
+                <div class="container">
+				<p class="copyright">Copyright &copy; 2012-2013 cssauthor.com</p>
+				</div>
 			</div>
 		</footer>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.5/js/swiper.min.js"></script>
@@ -105,5 +106,6 @@
 	    		},
 	  		})
 		</script>
+	</div>
 	</body>
 </html>

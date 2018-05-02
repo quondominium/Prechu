@@ -18,6 +18,16 @@ html {
         url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.ttf) format("truetype");
 
 }
+html, body, .page-container{
+    height: 100%;
+}
+.page-container{
+    display: table;
+	max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    table-layout: fixed;
+}
 .header {
 
 }
@@ -32,7 +42,8 @@ html {
 }
 .logo img {
 	vertical-align: middle;
-	width: 100%;
+	max-width: 100%;
+	height: auto;
 }
 .nav {
 	float: right;
@@ -45,7 +56,7 @@ ul {
 }
 .nav li {
 	display: inline-block;
-	padding: 0 21px 21px 21px;
+	padding: 0 21px 21px;
 }
 .nav li:hover .l2nav li { 
 	display: block;
@@ -160,67 +171,66 @@ ul {
 	text-decoration: none;
 	color: #fff;
 }
-content {
-
-}
-.top-content {
+.decorated-content {
 	max-width: 1024px;
 	margin: 57px auto 0;
 }
-.top-content-text {
+.decorated-content .container {
 	display: inline-block;
 	width: 33%;
   	margin: 0 auto;
 	text-align: center;
     font-family: SegoeUI;
 }
-.span-top {
+.span-decorated {
 	display: block;
 	color: #5094f2;
 	font-size: 20px;
 	line-height: 48px;
 	margin: 0 auto;
 }
-.top-content-text p {
+.decorated-content .container p {
 	width: 253px;
 	color: #909090;
 	font-size: 14px;
 	margin: 0 auto;
 }
-.top-content-text p a {
+.decorated-content .container p a {
 	text-decoration: none;
 	color: #5094f2;
 }
-.bottom-content-container {
-	max-width: 1024px;
-	margin: 95px auto 0;
-}
-.bottom-content {
+.text-content {
 	float: left;
-	width: 50%;
+	max-width: 1024px;
+
   	margin: 0 auto 52px;
   	font-family: SegoeUI;
   	color: #6f7173;
 }
-.span-bottom-right {
+.text-content .container {
+	float: left;
+	width: 50%;
+	margin: 95px auto 0;
+}
+.span-text-right {
 	display: block;
 	font-size: 26px;
 	line-height: 50px;
 	text-align: left;
 }
-.span-bottom-left {
+.span-text-left {
 	display: block;
 	font-size: 42px;
 	line-height: 44px;
 	text-align: center;
 }
-.bottom-content p {
+.text-content .container p {
 	font-size: 15px;
 	line-height: 33px;
-	padding-right: 74px;
+	padding-right: 66px;
 	margin-top: 50px;
 }
-.bottom-content img {
+.text-content .container img {
 	display: block;
 	margin: 0 auto;
 	padding-top: 33px;
@@ -229,14 +239,22 @@ footer {
 
 }
 .footer {
-    display: block;
+    position: relative;
+    display: table-footer-group;
+    width: 100%;
+}
+.footer-inner {
 	margin: 0 auto;
-	padding: 33px 0px 48px 0px;
-	max-width: 1024px;
+	padding: 33px 0 48px;
+	width: 1024px;
   	font-family: SegoeUI;
   	color: #6f7173;
   	border-top: solid 1px #6c6c6c;
 }
 .copyright {
 	text-align: center;
-}	
+	font-size: 15.35px;
+}
+footer p {	
+	margin: 0;
+}
