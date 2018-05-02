@@ -45,7 +45,7 @@ ul {
 }
 .nav li {
 	display: inline-block;
-	padding: 0 21px 20px 21px;
+	padding: 0 21px 21px 21px;
 }
 .nav li:hover .l2nav li { 
 	display: block;
@@ -64,7 +64,7 @@ ul {
 	padding-left: 0px;
 	position: absolute;
 	z-index: 2; 
-	margin-top: 22px;
+	margin-top: 21px;
 }
 .l2nav li {
 	float: left;
@@ -141,7 +141,7 @@ ul {
 	line-height: 33px;
 	}
 .slider-content-button {
-	margin: 0 0 12px;
+	margin: 0 0 0 12px;
 	width: 160px;
 	background: #5094f2;
 	border-radius: 2px;
@@ -153,7 +153,7 @@ ul {
 }
 .slider-content-button p {
 	float: left;
-	margin: 0 0 9px;
+	margin: 0 0 0 9px;
 	font-size: 19px;
 }
 .slider-content-button a {
