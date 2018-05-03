@@ -98,105 +98,6 @@ ul {
 	border-bottom: none;
 	color: #fff;
 	}
-.nav-mobile {
-	display: none;	
-	position: fixed;
-	right: 0;
-	top: 0;
-	width: 25%;
-	height: 100%;
-	padding-top: 21px;
-	background: #fff;
-	z-index: 16;
-
-}
-.nav-mobile li {
-	padding: 0 21px 21px;
-	  list-style: none;
-}
-.nav-mobile li:hover .l2nav-mobile li { 
-	display: block;
-}
-.nav-mobile li:hover .l2nav-mobile { 
-	display: block;
-}
-.nav-mobile li a {
-	padding-bottom: 16px;
-	color: #6c6c6c;
-	text-decoration: none;
-	font-family: SegoeUI;
-    font-size: 16px;  
-	}
-.nav-mobile li a:hover {
-	border-bottom: solid #5094f2 5px; 
-	}
-.l2nav-mobile {
-	display: none;	
-	padding-left: 0px;
-	z-index: 17; 
-	margin-top: 21px;
-}
-.l2nav-mobile li {
-	display: none;
-	width: 84px;
-	clear: both;
-	text-align: center;
-	background: #fff;
-	padding: 20px 0 13px;
-}
-.l2nav-mobile li a {
-	color: #6c6c6c;
-
-}
-.l2nav-mobile li:hover {
-	background: #5094f2; 
-	}
-
-.l2nav-mobile li a:hover {
-	border-bottom: none;
-	color: #fff;
-	}
-.btn-hamburger{
-	display: block;
-    position: relative;
-    margin: 5px 0 15px;
-    border: 0;
-    outline: 0;
-    float: right;
-    width: 50px;
-    height: 40px;
-    background: #5094f2;
-    cursor: pointer;
-	border-radius: 2px;
-}
-.btn-hamburger:hover + .nav-mobile {
-	display: block;
-}
-.btn-hamburger a:visited .nav-mobile {
-	display: block;
-}
-.btn-hamburger .hamburger-icon,
-.btn-hamburger:before,
-.btn-hamburger:after{
-    display: block;
-    width: 36px;
-    height: 3px;
-    background: #fff;
-}
-
-.btn-hamburger:before,
-.btn-hamburger:after{
-    position: absolute;
-    content: '';
-}
-
-.btn-hamburger:before{
-    top: 10px;
-}
-
-.btn-hamburger:after{
-    bottom: 10px;
-}
 .swiper-container {
 	clear: both;
 	margin: auto;
@@ -219,7 +120,7 @@ ul {
       -ms-flex-align: center;
       -webkit-align-items: center;
       align-items: center;
-}
+    }
 .slider-content {
 	width: 100%;
 	height: 100%;
@@ -249,7 +150,7 @@ ul {
 	text-align: left;
 	font-size: 22px;
 	line-height: 33px;
-}
+	}
 .slider-content-button {
 	margin: 0 0 0 12px;
 	width: 160px;
@@ -356,13 +257,4 @@ footer {
 }
 footer p {	
 	margin: 0;
-}
-@media all and (max-width: 767px) {
-.btn-hamburger{
-        display: block;
-    }
-
-.nav{
-        display: none;
-    }
 }
