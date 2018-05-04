@@ -5,36 +5,23 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Prechu</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.5/css/swiper.min.css">
 		<link rel="stylesheet" href="css/normalize.css" />
 		<link rel="stylesheet" href="css/styles.css" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.5/css/swiper.min.css">
 	</head>
 	<body>
 	    <div class="page-container">
 			<header class="header">
-					<div class="header-container clearfix">
+					<div class="header container clearfix">
 						<div class="logo">
 							<a href="#">
 								<img src="images/logo.png" width="178" height="44" alt="logo" >
 							</a>
 						</div>
+						<button type="button" class="btn-hamburger">
+	                    	<i class="hamburger-icon"></i>
+	                	</button>
 						<nav class="nav">
-							<button type="button" class="btn-hamburger" onclick="myFunction(this)">
-		                    	<i class="hamburger-icon"></i>
-		                	</button>
-							<ul class="l1nav-mobile">
-								<li>
-									<a href="#">Home</a>
-										<ul class="l2nav-mobile">
-										<li><a href="#">Products</a></li>
-										<li><a href="#">Services</a></li>
-										<li><a href="#">Contact</a></li>
-									</ul>
-								</li>
-								<li><a href="#">Products</a></li>
-								<li><a href="#">Services</a></li>
-								<li><a href="#">Contact</a></li>
-							</ul>
 							<ul class="l1nav">
 								<li>
 									<a href="#">Home</a>
@@ -53,7 +40,7 @@
 			</header>
 	        <main class="content">
 	            <section class="slider">
-					<div class="swiper-container">
+					<div class="swiper-container container">
 				    	<div class="swiper-wrapper">
 				        	<div class="swiper-slide">
 				        		<div class="slider-content clearfix">
@@ -111,9 +98,31 @@
 				</div>
 			</footer>
 			<script>
-			function myFunction(x) {
-			    x.classList.toggle("change");
-			}
+			  function listen() {
+			    var HAMBURGER_ACTIVE = 'is-active';
+			    var MOBILE_ACTIVE = 'mobile-active';
+			    var NAVIGATION_OPENED = 'is-navigation-opened';
+			    var MOBILE_RESOLUTION = 767;
+
+			    var body = document.querySelector('body');
+			    var btnHamburger = document.querySelector('.btn-hamburger');
+			    var l1nav = document.querySelector('.l1nav');
+			    btnHamburger.addEventListener('click', function () {
+			      btnHamburger.classList.toggle(HAMBURGER_ACTIVE);
+			      body.classList.toggle(NAVIGATION_OPENED);
+			      l1nav.classList.toggle(MOBILE_ACTIVE);
+			    });
+
+			    window.addEventListener('resize', function(){
+			      if(window.innerWidth > MOBILE_RESOLUTION){
+			        btnHamburger.classList.remove(HAMBURGER_ACTIVE);
+			        body.classList.remove(NAVIGATION_OPENED);
+			        l1nav.classList.remove(MOBILE_ACTIVE);			        
+			      }
+			    });
+			  }
+
+			  listen();
 			</script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.5/js/swiper.min.js"></script>
 			<script>
