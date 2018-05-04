@@ -193,7 +193,7 @@ ul {
 	display: block;
 	position: fixed;
 	right: 2%;
-	top: 4%;
+	top: 2%;
 	z-index: 17;
 }
 .btn-hamburger.change:before {
