@@ -102,7 +102,7 @@ html, body, .page-container{
     content: "Menu";
     display: block;
 	font-family: SegoeUI;
-    font-size: 20px;
+    font-size: 2.551vh;
     font-weight: bold;
 	color: #fff;
 	background: #5094f2;
@@ -143,7 +143,7 @@ html, body, .page-container{
 	color: #6c6c6c;
 	text-decoration: none;
 	font-family: SegoeUI;
-    font-size: 16px;  
+    font-size: 2.04vh;  
 	}
 .mobile-active li a:hover {
 	border-bottom: solid #5094f2 3px; 
