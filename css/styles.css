@@ -177,16 +177,14 @@ html, body, .page-container{
 }
 .slider-content img {
 	display: block;
-	float: left;
-	margin-left: 61px;
-	margin-top: 36px;
+	padding: 1.6% 0 1.6% 11%;
 }
 .slider-content-text {
-	float: left;
-	margin-left: 100px;
-	margin-top: 154px;
-	padding-right: 117px;
 	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%);
 }
 .slider-content-text-span {
 	display: block;
@@ -210,6 +208,9 @@ html, body, .page-container{
 	font-size: 19px;
     line-height: 38px;	
 	color: #fff;
+}
+.decorated-content {
+	margin-top: 62px;
 }
 .decorated-content .container {
 	display: block;
