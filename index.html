@@ -100,24 +100,20 @@
 			<script>
 			  function listen() {
 			    var HAMBURGER_ACTIVE = 'is-active';
-			    var MOBILE_ACTIVE = 'mobile-active';
 			    var NAVIGATION_OPENED = 'is-navigation-opened';
 			    var MOBILE_RESOLUTION = 767;
 
 			    var body = document.querySelector('body');
 			    var btnHamburger = document.querySelector('.btn-hamburger');
-			    var l1nav = document.querySelector('.nav-list');
 			    btnHamburger.addEventListener('click', function () {
 			      btnHamburger.classList.toggle(HAMBURGER_ACTIVE);
 			      body.classList.toggle(NAVIGATION_OPENED);
-			      l1nav.classList.toggle(MOBILE_ACTIVE);
 			    });
 
 			    window.addEventListener('resize', function(){
 			      if(window.innerWidth > MOBILE_RESOLUTION){
 			        btnHamburger.classList.remove(HAMBURGER_ACTIVE);
-			        body.classList.remove(NAVIGATION_OPENED);
-			        nav-list.classList.remove(MOBILE_ACTIVE);			        
+			        body.classList.remove(NAVIGATION_OPENED);	        
 			      }
 			    });
 			  }
