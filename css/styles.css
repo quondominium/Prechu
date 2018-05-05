@@ -334,6 +334,7 @@ footer p {
 }
 .is-navigation-opened .nav-list {
 	display: block;
+	box-shadow: 0 0 5px 1px;
 }
 .nav-list {
 	position: fixed;
