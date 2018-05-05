@@ -75,20 +75,20 @@ header .container {
 .l1nav li a:hover {
 	border-bottom: solid #5094f2 5px; 
 }
-.l2nav {
+.nav .l2nav {
 	display: none;
-	padding-left: 0;
 	position: absolute;
 	z-index: 2; 
 	margin-top: 21px;
 }
 .l2nav li {
-	width: 50%;
-	text-align: center;
-	background: #fff;
-	padding: 20px 0 13px;
+	display: block;
+	padding: 0 21px 21px 0;
 }
 .l2nav li a {
+	display: block;
+	padding: 20px 0 13px;	
+	background: #fff;
 	color: #6c6c6c;
  	transition: color ease 1000ms;	
 }
@@ -223,9 +223,11 @@ header .container {
 }
 .btn-hamburger:before{
     top: 10px;
+	transition: rotate ease 1000ms;    
 }
 .btn-hamburger:after{
     bottom: 10px;
+	transition: rotate ease 1000ms;
 }
 .swiper-container {
 	clear: both;
