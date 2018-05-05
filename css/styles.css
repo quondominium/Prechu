@@ -332,8 +332,8 @@ footer p {
 	padding: 15% 0 5% 15%; 
 	height: 84px;
 }
-.is-active + .nav .nav-list {
-	display: block !important;
+.is-navigation-opened .nav-list {
+	display: block;
 }
 .nav-list {
 	position: fixed;
