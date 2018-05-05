@@ -364,6 +364,10 @@ footer p {
 	color: #fff;
 	background: #5094f2;
 }
+.swiper-container {
+	background: url(../images/baack.png) center no-repeat;
+	background-size: cover;    
+}
 .decorated-content {
 	max-width: 1024px;
 	margin: 0 auto;
