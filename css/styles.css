@@ -175,8 +175,8 @@ html, body, .page-container{
 .slider-content {
 	width: 100%;
 	height: 100%;
-	background: url(../images/back.png) no-repeat;
-	background-size: 1024px auto;
+	background: url(../images/teeth.png) left bottom repeat-x, url(../images/baack.png) center no-repeat;
+	background-size: 12px 18px, cover;
 }
 .slider-content img {
 	display: block;
@@ -201,24 +201,17 @@ html, body, .page-container{
 	font-size: 22px;
 	line-height: 33px;
 }
-.slider-content-button {
-	margin: 0 0 0 12px;
-	width: 160px;
-	background: #5094f2;
-	border-radius: 2px;
-}
-.slider-content-button img {
-	float: left;
-	display: block;
-	margin: 5px 0 0 12px;
-}
-.slider-content-button p {
-	float: left;
-	margin: 0 0 0 9px;
-	font-size: 19px;
-}
 .slider-content-button a {
+	display: block;
+	border-radius: 2px;
+	width: 180px;
 	text-decoration: none;
+	background: url(../images/checkbox.svg) 6% 50% no-repeat #5094f2;
+	text-align: center;
+	background-size: 23px 23px;
+	margin: 5px 0 0 21px;
+	font-size: 19px;
+    line-height: 38px;	
 	color: #fff;
 }
 .decorated-content {
@@ -314,8 +307,9 @@ footer p {
     }
 
 .nav-list{
-        display: none;
-    }
+    display: none;
+    transition: width ease 300ms;
+}
 .nav {
 	height: 40px;
 }
@@ -329,7 +323,7 @@ footer p {
 	background: #5094f2;
 	border-bottom: solid #5094f2 3px;
 	margin: 0 0 10% 0;
-	padding: 15% 0 5% 15%; 
+	padding: 12% 0 5% 15%; 
 	height: 84px;
 }
 .is-navigation-opened .nav-list {
@@ -340,7 +334,7 @@ footer p {
 	position: fixed;
 	right: 0;
 	top: 0;
-	width: 33%;
+	width: 50%;
 	height: 100%;
 	background: #fff;
 	z-index: 16;
