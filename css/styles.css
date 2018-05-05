@@ -83,11 +83,11 @@ header .container {
 }
 .l2nav li {
 	display: block;
-	padding: 0 21px 21px 0;
+	padding: 0;
 }
 .l2nav li a {
 	display: block;
-	padding: 20px 0 13px;	
+	padding: 20px 21px 13px;	
 	background: #fff;
 	color: #6c6c6c;
  	transition: color ease 1000ms;	
