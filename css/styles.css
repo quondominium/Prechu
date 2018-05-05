@@ -214,38 +214,27 @@ html, body, .page-container{
     line-height: 38px;	
 	color: #fff;
 }
-.decorated-content {
-	max-width: 1024px;
-	margin: 0 auto;
-}
 .decorated-content .container {
 	display: block;
-	width: 100%;
+	width: 33.3%;
+ 	float: left;
 	text-align: center;
-    padding-bottom: 3%;
-    padding-top: 3%;
-    border-bottom: solid #cccccc 1px;
+    font-family: SegoeUI;
 }
 .span-decorated {
 	display: block;
 	color: #5094f2;
-	font-size: 27px;
-	line-height: 64.8px;
+	font-size: 20px;
+	line-height: 48px;
 	margin: 0 auto;
-}
-.decorated-content .container img {
-	display: block;
- 	float: left;	
 }
 .decorated-content .container p {
 	width: 100%;
 	color: #909090;
-	font-size: 15.3px;
-	text-align: left;
+	font-size: 14px;
 	margin: 0 auto;
-	padding: 2.5% 12% 0 34.4%;
 }
-.decorated-content .container a {
+.decorated-content .container p a {
 	text-decoration: none;
 	color: #5094f2;
 }
@@ -374,6 +363,41 @@ footer p {
 	border-bottom: none;
 	color: #fff;
 	background: #5094f2;
-}    
+}
+.decorated-content {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+.decorated-content .container {
+	display: block;
+	width: 100%;
+	text-align: center;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    border-bottom: solid #cccccc 1px;
+}
+.span-decorated {
+	display: block;
+	color: #5094f2;
+	font-size: 27px;
+	line-height: 64.8px;
+	margin: 0 auto;
+}
+.decorated-content .container img {
+	display: block;
+ 	float: left;	
+}
+.decorated-content .container p {
+	width: 100%;
+	color: #909090;
+	font-size: 15.3px;
+	text-align: left;
+	margin: 0 auto;
+	padding: 2.5% 12% 0 34.4%;
+}
+.decorated-content .container a {
+	text-decoration: none;
+	color: #5094f2;
+}   
 }
 		
