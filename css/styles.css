@@ -149,12 +149,9 @@ html, body, .page-container{
 	transition: rotate ease 1000ms;
 }
 .swiper-container {
-	clear: both;
-	margin: auto;
 	max-width: 1024px;
     max-height: 480px;
-	background: url(../images/teeth.png) left bottom repeat-x, url(../images/baack.png) center no-repeat;
-	background-size: 12px 18px, cover;    
+	background: url(../images/teeth.png) left bottom repeat-x, url(../images/baack.png) center no-repeat;  
 }
 .swiper-slide {
 	  height: auto;
