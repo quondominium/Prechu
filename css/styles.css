@@ -1,14 +1,3 @@
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-.clearfix:after,.clearfix:before {
-    content: "";
-    clear: both;
-    display: table;
-}
 @font-face {
     font-family: SegoeUI;
     src:
@@ -18,8 +7,22 @@ html {
         url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.ttf) format("truetype");
 
 }
+html{
+    color: #6c6c6c;
+    font: 12px/18px SegoeUI, sans-serif;
+    background: #fff;
+    box-sizing: border-box;
+}
 html, body, .page-container{
     height: 100%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.clearfix:after,.clearfix:before {
+    content: "";
+    clear: both;
+    display: table;
 }
 .page-container{
     display: table;
@@ -33,11 +36,7 @@ html, body, .page-container{
  	max-width: 1024px;
  }
 
-.header {
-
-}
-.header .container {
-	max-width: 1024px;
+header .container {
 	padding: 24px 25px 0px 31px;
 	margin: 0 auto;
 }
@@ -50,10 +49,16 @@ html, body, .page-container{
 	max-width: 100%;
 	height: auto;
 }
-.l1nav {
+.nav {
 	float: right;
+	margin-top: 20px;	
+}
+.l1nav {
 	padding: 20px 0 0;
 	margin: 0;
+}
+.l1nav ul {
+	list-style: none;
 }
 .l1nav li {
 	display: inline-block;
@@ -67,11 +72,12 @@ html, body, .page-container{
 	color: #6c6c6c;
 	text-decoration: none;
 	font-family: SegoeUI;
-    font-size: 16px;  
+    font-size: 16px; 
+ 	 transition: border-bottom ease 300ms;    
 	}
 .l1nav li a:hover {
 	border-bottom: solid #5094f2 5px; 
-	}
+}
 .l2nav {
 	display: none;
 	padding-left: 0;
@@ -87,7 +93,7 @@ html, body, .page-container{
 }
 .l2nav li a {
 	color: #6c6c6c;
-
+ 	transition: color ease 1000ms;	
 }
 .l2nav li:hover {
 	background: #5094f2; 
@@ -97,7 +103,6 @@ html, body, .page-container{
 	border-bottom: none;
 	color: #fff;
 	}
-
  .mobile-active:before {
     content: "Menu";
     display: block;
@@ -109,7 +114,7 @@ html, body, .page-container{
 	border-bottom: solid #5094f2 3px;
 	margin: 0 0 10% 0;
 	padding: 15% 0 5% 15%; 
-	height: 84px;    	
+	height: 84px;
 }
 .mobile-active {
 	display: block !important;	
@@ -121,7 +126,6 @@ html, body, .page-container{
 	padding-top: 0;
 	background: #fff;
 	z-index: 16;
-
 }
 .mobile-active li {
 	display: block;
@@ -143,11 +147,12 @@ html, body, .page-container{
 	color: #6c6c6c;
 	text-decoration: none;
 	font-family: SegoeUI;
-    font-size: 2.04vh;  
+    font-size: 2.04vh;
+    transition: border-bottom ease 300ms;      
 	}
 .mobile-active li a:hover {
 	border-bottom: solid #5094f2 3px; 
-	}
+}
 .mobile-active .l2nav {
 	display: none;
 	z-index: 17; 		
@@ -165,16 +170,16 @@ html, body, .page-container{
 }
 .mobile-active .l2nav li a {
 	color: #6c6c6c;
+	transition: color ease 500ms;
 }
 .mobile-active .l2nav li:hover {
 	background: #5094f2;
 	border-bottom: none; 
-	}
-
+}
 .mobile-active .l2nav li a:hover {
 	border-bottom: none;
 	color: #fff;
-	}    
+}    
 .btn-hamburger{
 	display: none;
     position: relative;
@@ -198,7 +203,6 @@ html, body, .page-container{
 .btn-hamburger.is-active:before {
 	top: 19px;
 	transform: rotate(-45deg);
-
 }
 .btn-hamburger.is-active:after {
 	bottom: 18px;
@@ -213,18 +217,16 @@ html, body, .page-container{
     display: block;
     width: 36px;
     height: 3px;
-    background: #fff;
+    background: #fff; 
 }
 .btn-hamburger:before,
 .btn-hamburger:after{
     position: absolute;
     content: '';
 }
-
 .btn-hamburger:before{
     top: 10px;
 }
-
 .btn-hamburger:after{
     bottom: 10px;
 }
@@ -304,29 +306,41 @@ html, body, .page-container{
 }
 .decorated-content {
 	max-width: 1024px;
-	margin: 57px auto 0;
+	margin: 0 auto;
 }
 .decorated-content .container {
-	display: inline-block;
-	width: 33.3%;
- 	float: left;
+	display: block;
+	width: 100%;
 	text-align: center;
     font-family: SegoeUI;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    border-bottom: solid #cccccc 1px;
 }
 .span-decorated {
 	display: block;
 	color: #5094f2;
-	font-size: 20px;
-	line-height: 48px;
+	font-size: 27px;
+	line-height: 64.8px;
 	margin: 0 auto;
+}
+.decorated-content .container img {
+	display: block;
+ 	float: left;	
+}
+.decorated-content .container .ico {
+
+
 }
 .decorated-content .container p {
-	width: 253px;
+	width: 100%;
 	color: #909090;
-	font-size: 14px;
+	font-size: 15.3px;
+	text-align: left;
 	margin: 0 auto;
+	padding: 2.5% 12% 0 34.4%;
 }
-.decorated-content .container p a {
+.decorated-content .container a {
 	text-decoration: none;
 	color: #5094f2;
 }
@@ -364,8 +378,7 @@ html, body, .page-container{
 	margin: 0 auto;
 	padding-top: 33px;
 }
-footer {
-}
+footer {}
 .footer {
     position: relative;
     display: table-footer-group;
