@@ -22,13 +22,13 @@
 	                    	<i class="hamburger-icon"></i>
 	                	</button>
 						<nav class="nav">
-							<ul class="l1nav">
+							<ul class="nav-list">
 								<li>
 									<a href="#">Home</a>
-										<ul class="l2nav">
+										<ul class="sub-nav">
 										<li><a href="#">Products</a></li>
 										<li><a href="#">Services</a></li>
-										<li><a href="#">Contact ContactContact</a></li>
+										<li><a href="#">Contact</a></li>
 									</ul>
 								</li>
 								<li><a href="#">Products</a></li>
@@ -60,9 +60,7 @@
 				</section>
 	            <section class="decorated-content clearfix">
 					<div class="container  clearfix">
-						<div class="ico">
-							<a href="#"><img src="images/mid-container1.svg" width="186" height="186" alt="mid-container1" ></a>
-						</div>
+						<a href="#"><img src="images/mid-container1.svg" width="186" height="186" alt="mid-container1" ></a>
 						<p><span class="span-decorated"><a href="#">Contrary to popular</a></span> Lorem Ipsum is not simply random text. It has roots in a piece</p> 
 					</div>
 					<div class="container  clearfix">
@@ -108,7 +106,7 @@
 
 			    var body = document.querySelector('body');
 			    var btnHamburger = document.querySelector('.btn-hamburger');
-			    var l1nav = document.querySelector('.l1nav');
+			    var l1nav = document.querySelector('.nav-list');
 			    btnHamburger.addEventListener('click', function () {
 			      btnHamburger.classList.toggle(HAMBURGER_ACTIVE);
 			      body.classList.toggle(NAVIGATION_OPENED);
@@ -119,7 +117,7 @@
 			      if(window.innerWidth > MOBILE_RESOLUTION){
 			        btnHamburger.classList.remove(HAMBURGER_ACTIVE);
 			        body.classList.remove(NAVIGATION_OPENED);
-			        l1nav.classList.remove(MOBILE_ACTIVE);			        
+			        nav-list.classList.remove(MOBILE_ACTIVE);			        
 			      }
 			    });
 			  }
