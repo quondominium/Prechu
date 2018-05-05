@@ -52,12 +52,10 @@ header .container {
 	float: right;
 	margin-top: 20px;	
 }
-.l1nav {
-	padding: 20px 0 0;
-	margin: 0;
-}
-.l1nav ul {
+.nav ul {
 	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 .l1nav li {
 	display: inline-block;
