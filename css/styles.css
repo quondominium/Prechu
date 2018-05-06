@@ -189,16 +189,19 @@ html, body, .page-container{
 	top: 50%;
 	left: 50%;
 	transform: translateY(-50%);
+	padding-top: 22px; 
 }
-.slider-content-text-span {
-	display: block;
+.slider-header {
 	font-size: 30px;
-	line-height: 60px; 
+    font-weight: 100;
+	line-height: 60px;
+	margin: 0;  
 }
 .slider-content-text p {
 	text-align: left;
 	font-size: 22px;
 	line-height: 33px;
+	margin: 0 0 22px 0;
 }
 .slider-content-text a {
 	display: block;
@@ -216,7 +219,7 @@ html, body, .page-container{
 .decorated-content {
 	margin-top: 62px;
 }
-.decorated-content .container {
+.decorated-content .-container {
 	display: block;
 	width: 33.3%;
  	float: left;
@@ -227,16 +230,17 @@ html, body, .page-container{
 	display: block;
 	color: #5094f2;
 	font-size: 20px;
-	line-height: 48px;
+	line-height: 40px;
 	margin: 0 auto;
 }
-.decorated-content .container p {
+.decorated-content .-container p {
 	width: 100%;
 	color: #909090;
 	font-size: 14px;
-	margin: 0 auto;
+	margin: 6% 0 0; 
+	padding: 0 12%;
 }
-.decorated-content .container p a {
+.decorated-content .-container p a {
 	text-decoration: none;
 	color: #5094f2;
 }
@@ -375,7 +379,7 @@ footer p {
 	max-width: 1024px;
 	margin: 0 auto;
 }
-.decorated-content .container {
+.decorated-content .-container {
 	display: block;
 	width: 100%;
 	text-align: center;
@@ -390,19 +394,19 @@ footer p {
 	line-height: 64.8px;
 	margin: 0 auto;
 }
-.decorated-content .container img {
+.decorated-content .-container img {
 	display: block;
  	float: left;	
 }
-.decorated-content .container p {
-	width: 100%;
+.decorated-content .-container p {
+	width: auto;
 	color: #909090;
 	font-size: 15.3px;
 	text-align: left;
-	margin: 0 auto;
-	padding: 2.5% 12% 0 34.4%;
+	margin: 2.5% 17% 0 34.4%;
+	padding: 0;
 }
-.decorated-content .container a {
+.decorated-content .-container a {
 	text-decoration: none;
 	color: #5094f2;
 }   
