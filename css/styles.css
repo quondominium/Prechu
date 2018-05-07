@@ -9,7 +9,7 @@
 }
 html{
     color: #6c6c6c;
-    font: 12px/18px "Segoe UI Light", Arial, Helvetica, sans-serif;
+    font: 12px/18px SegoeUI, "Segoe UI Light", Arial, Helvetica, sans-serif;
     background: #fff;
     box-sizing: border-box;
 }
@@ -183,26 +183,27 @@ h3 {
 }
 .slider-header {
 	font-weight: 100;
-	font-size: 42.35px;
- 	line-height: 44.42px; 
+	font-size: 42px;
+ 	line-height: 44px; 
 }
 .slider-content-text p {
+	max-width: 250px;
 	text-align: left;
-	font-size: 26.35px;
-	line-height: 44.42px;
-	margin: 0 0 28px 0;
+	font-size: 26px;
+	line-height: 44px;
+	margin-bottom: 28px;
 }
 .slider-content-text a {
 	display: block;
 	border-radius: 2px;
-	width: 163px;
+	max-width: 163px;
 	text-decoration: none;
 	background: url(../images/checkbox.svg) 11px 10px no-repeat #5094f2;
 	text-align: right;
 	background-size: 23px 23px;
-	margin: 5px 0 0 21px;
+	margin-left: 21px;
 	padding-right: 9px;
-	font-size: 22.35px;
+	font-size: 22px;
     line-height: 41px;	
 	color: #fff;
 }
@@ -221,7 +222,7 @@ h3 {
 }
 .decorated-header {
 	color: #5094f2;
-	font-size: 20.35px;
+	font-size: 20px;
 	line-height: 40px;
 	margin: 20px 0 0; 
 }
@@ -231,7 +232,7 @@ h3 {
 }
 .decorated-container p {
 	color: #909090;
-	font-size: 14.35px;
+	font-size: 14px;
 	padding: 0 40px;
 	margin: 0;
 }
@@ -256,7 +257,7 @@ h3 {
 	margin-top: 50px;
 }
 .text-container p {
-	font-size: 15.35px;
+	font-size: 15px;
 	line-height: 33px;
 	padding-right: 46px;
 	margin: 0;
@@ -282,7 +283,7 @@ h3 {
 }
 .copyright {
 	text-align: center;
-	font-size: 15.35px;
+	font-size: 15px;
 }
 footer p {	
 	margin: 0;
@@ -366,17 +367,17 @@ footer p {
     top: 55%;
 }
 .slider-header {
-    font-size: 30.98px;
-    line-height: 35.94px;
+    font-size: 31px;
+    line-height: 36px;
 }
 .slider-content-text p {
-    font-size: 22.71px;
-    line-height:  35.94px;
+    font-size: 23px;
+    line-height:  36px;
 }
 .slider-content-text a {
 	width: 227px;
 	margin: 5px 0 0 0;
-	font-size: 31.08px;
+	font-size: 31px;
     line-height: 53px;
     background: url(../images/checkbox.svg) 16px 12px no-repeat #5094f2;
     background-size: 34px 34px;
@@ -394,8 +395,8 @@ footer p {
 }
 .decorated-header {
 	text-align: left;
-	font-size: 34.13px;
-	line-height: 60.54px;
+	font-size: 34px;
+	line-height: 60px;
 	margin: 16px 106px 0 204px;
 }
 .decorated-container img {
@@ -408,7 +409,7 @@ footer p {
 .decorated-container p {
 	width: auto;
 	color: #909090;
-	font-size: 19.35px;
+	font-size: 19px;
 	text-align: left;
 	margin: 0 75px  0 204px;
 	padding: 0;
@@ -420,12 +421,10 @@ footer p {
 .text-content {
 	margin: 49px auto;
 } 
-
 .text-container {
 	float: none;
 	width: 78%;
 	margin: auto; 
-
 }
 .text-container p { 
 	padding-right: 0; 
@@ -437,11 +436,11 @@ footer p {
 	padding-top: 33px;
 }
 .text-header-right {
-    font-size: 34.35px;
+    font-size: 34px;
 	margin: 15px auto 13px;
 }
 .text-container p {
-    font-size: 17.35px;
+    font-size: 17px;
     line-height: 36px;
 }
 .footer-inner {
