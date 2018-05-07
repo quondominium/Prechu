@@ -185,10 +185,10 @@ h3 {
 	width: 100%;
 	height: 100%;
 }
-.slider-content img {
+.slider-img {
 	position: absolute;
-	width: 33.69%;
-    height: 88.4%;
+	width: 345px;
+    height: 436px;
 	top: 50%;
 	left: 10.35%;
 	transform: translateY(-50%);
@@ -216,9 +216,9 @@ h3 {
 	border-radius: 2px;
 	width: 163px;
 	text-decoration: none;
-	background: url(../images/checkbox.svg) 6% 50% no-repeat #5094f2;
+	background: url(../images/checkbox.svg) 11px 10px no-repeat #5094f2;
 	text-align: right;
-	background-size: 14.11% 56%;
+	background-size: 23px 23px;
 	margin: 5px 0 0 21px;
 	padding-right: 9px;
 	font-size: 22.35px;
@@ -242,17 +242,16 @@ h3 {
 	color: #5094f2;
 	font-size: 20.35px;
 	line-height: 40px;
-	margin: 6% 0 0; 
+	margin: 20px 0 0; 
 }
 .decorated-header a {
 	text-decoration: none;
 	color: #5094f2;
 }
 .decorated-container p {
-	width: 100%;
 	color: #909090;
 	font-size: 14.35px;
-	padding: 0 12%;
+	padding: 0 40px;
 	margin: 0;
 }
 .text-content {
@@ -323,7 +322,7 @@ footer p {
     content: "";
     display: block;
 	background: #5094f2;
-	margin-bottom: 10%;
+	margin-bottom: 32px;
 	height: 89px;
 }
 .is-navigation-opened .nav-list {
@@ -357,7 +356,7 @@ footer p {
 .nav-list .sub-nav {
 	display: none;
 	z-index: 17; 		
-	padding-left: 15%;
+	padding-left: 40px;
 	position: static;
 }
 .nav-list .sub-nav li a {
@@ -380,9 +379,9 @@ footer p {
 	background: url(../images/baack.png) center no-repeat;
 	background-size: cover;    
 }
-.slider-content img {
-    width: 27.65%;
-    height: 89.2%;
+.slider-img {
+    width: 177px;
+    height: 223px;
     top: 55%;
 }
 .slider-header {
@@ -398,8 +397,8 @@ footer p {
 	margin: 5px 0 0 0;
 	font-size: 31.08px;
     line-height: 53px;
-    background: url(../images/checkbox.svg) 7% 65% no-repeat #5094f2;
-    background-size: 15% 70%;
+    background: url(../images/checkbox.svg) 16px 12px no-repeat #5094f2;
+    background-size: 34px 34px;
 }
 .decorated-content {
 	max-width: 1024px;
@@ -416,21 +415,21 @@ footer p {
 	text-align: left;
 	font-size: 34.13px;
 	line-height: 60.54px;
-	margin: 2.5% 17% 0 32.8%;
+	margin: 16px 106px 0 204px;
 }
 .decorated-container img {
 	display: block;
  	float: left;
 	width: 146px; 
 	height: 146px;
-	margin-left: 6.875%;  	
+	margin-left: 43px; 	
 }
 .decorated-container p {
 	width: auto;
 	color: #909090;
 	font-size: 19.35px;
 	text-align: left;
-	margin: 0 12%  0 32.8%;
+	margin: 0 75px  0 204px;
 	padding: 0;
 }
 .decorated-container a {
