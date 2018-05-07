@@ -9,9 +9,7 @@
 }
 html{
     color: #6c6c6c;
-    font-size: 12px;
-    line-height: 18px;
-    font-family: Segoe UI Light, sans-serif;
+    font: 12px/18px Segoe UI Light, Arial, Verdana, Tahoma, sans-serif;
     background: #fff;
     box-sizing: border-box;
 }
