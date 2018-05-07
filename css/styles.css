@@ -27,18 +27,18 @@ html, body, .page-container{
 h3 {
 	margin: 0;
 }
-.page-container{
+.page-container {
     display: table;
     width: 100%;
     margin: 0 auto;
     table-layout: fixed;
 }
- .container{
+.container {
  	margin: 0 auto;
  	padding: 0 10px;
  	max-width: 1024px;
  }
-.header-container {
+.header .container {
 	padding: 29px 25px 0px 31px;
 }
 .logo {
@@ -154,6 +154,9 @@ h3 {
     left: 10px;	
     transform: rotate(0deg);
 	transition:  transform ease 500ms; 
+}
+.slider .container {
+	padding: 0;
 }
 .swiper-container {
 	width: 100%;
