@@ -52,7 +52,7 @@ h3 {
 }
 .nav {
 	float: right;
-	margin-top: 20px;	
+	margin-top: 22px;	
 }
 .nav ul {
 	list-style: none;
@@ -63,6 +63,7 @@ h3 {
 	position: relative;
 	display: inline-block;
 	padding: 0 21px 21px;
+/*	line-height: 1; */
 }
 .nav-list li:hover .sub-nav { 
 	display: block;
@@ -111,7 +112,7 @@ h3 {
     cursor: pointer;
 	border-radius: 2px;
 }
-.is-active {
+.btn-hamburger.is-active {
 	display: block;
 	position: fixed;
     right: 35px;
@@ -172,7 +173,9 @@ h3 {
 }
 .slider-img {
 	width: 345px;
+	height: 436px;
 	float: left;
+	background: url(../images/iphone.png) no-repeat;
 }
 .slider-content-text {
 	color: #fff;
@@ -190,13 +193,13 @@ h3 {
 }
 .slider-content-text p {
 	max-width: 250px;
-	margin: 0 0 28px 0;
+	margin: 0 0 28px;
 }
 .slider-content-text a {
     display: inline-block;
     border-radius: 2px;
     text-decoration: none;
-    background: #5094f2 url(../images/checkbox.svg) no-repeat 11px 50% / 23px 23px;
+    background: #5094f2 url(../images/checkbox.svg) no-repeat 11px / 23px 23px;
     margin-left: 21px;
     font-size: 22px;
     line-height: 1;
@@ -357,10 +360,14 @@ footer p {
 	background: url(../images/baack.png) center no-repeat;
 	background-size: cover;    
 }
+.slider-content {
+	padding-top: 22px;
+}
 .slider-img {
     width: 177px;
     height: 223px;
-    top: 55%;
+    background: url(../images/iphone_small.png) no-repeat;
+    margin-left: 37px;
 }
 .slider-header {
     font-size: 31px;
@@ -371,12 +378,11 @@ footer p {
     line-height:  36px;
 }
 .slider-content-text a {
-	width: 227px;
-	margin: 5px 0 0 0;
+	max-width: 234px;
+	margin: 0;
 	font-size: 31px;
-    line-height: 53px;
-    background: url(../images/checkbox.svg) 16px 12px no-repeat #5094f2;
-    background-size: 34px 34px;
+    background: #5094f2 url(../images/checkbox.svg) no-repeat 15px / 33px 33px;
+    padding: 7px 12px 13px 61px;
 }
 .decorated-content {
 	max-width: 1024px;
