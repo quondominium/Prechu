@@ -1,15 +1,17 @@
 @font-face {
     font-family: SegoeUI;
     src:
-        local("Segoe UI"),
-        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2) format("woff2"),
-        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff) format("woff"),
-        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.ttf) format("truetype");
-
+        local("Segoe UI Light"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff2) format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff) format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.ttf) format("truetype");
+    font-weight: 100;
 }
 html{
     color: #6c6c6c;
-    font: 12px/18px SegoeUI, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: Segoe UI Light, sans-serif;
     background: #fff;
     box-sizing: border-box;
 }
@@ -26,7 +28,6 @@ html, body, .page-container{
 }
 h3 {
 	margin: 0;
-	font-weight: 100;
 }
 .page-container{
     display: table;
@@ -40,7 +41,7 @@ h3 {
  	max-width: 1024px;
  }
 .header-container {
-	padding: 24px 25px 0px 31px;
+	padding: 29px 25px 0px 31px;
 }
 .logo {
 	float: left;
@@ -103,12 +104,11 @@ h3 {
 .btn-hamburger{
 	display: none;
     position: relative;
-    margin: 5px 0 15px;
     border: 0;
     outline: 0;
     float: right;
-    width: 50px;
-    height: 40px;
+    width: 58px;
+    height: 44px;
     background: #5094f2;
     cursor: pointer;
 	border-radius: 2px;
@@ -117,7 +117,7 @@ h3 {
 	display: block;
 	position: fixed;
     right: 35px;
-    top: 24px;
+    top: 29px;
 	z-index: 17;
 }
 .btn-hamburger.is-active:before {
@@ -135,8 +135,9 @@ h3 {
 .btn-hamburger:before,
 .btn-hamburger:after{
     display: block;
-    width: 36px;
-    height: 3px;
+    margin: auto;
+    width: 38px;
+    height: 6px;
     background: #fff;
 }
 .btn-hamburger:before,
@@ -145,14 +146,16 @@ h3 {
     content: '';
 }
 .btn-hamburger:before{
-    top: 10px;	
+    top: 10px;
+    left: 10px;	
     transform: rotate(0deg);
-	transition:  transform ease 2s;     
+	transition:  transform ease 500ms;     
 }
 .btn-hamburger:after{
     bottom: 10px;
+    left: 10px;	
     transform: rotate(0deg);
-	transition:  transform ease 2s; 
+	transition:  transform ease 500ms; 
 }
 .swiper-container {
 	width: 100%;
@@ -162,7 +165,7 @@ h3 {
 }
 .swiper-slide {
       text-align: center;
-      font-family: SegoeUI;
+	  font-family: inherit;
       font-size: 18px;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -183,8 +186,8 @@ h3 {
 }
 .slider-content img {
 	position: absolute;
-	width: 33.8%;
-	height: 96.8%;
+	width: 34.36%;
+    height: 88.4%;
 	top: 50%;
 	left: 10.35%;
 	transform: translateY(-50%);
@@ -195,33 +198,34 @@ h3 {
 	top: 50%;
 	left: 50%;
 	transform: translateY(-50%);
-	padding-top: 22px; 
 }
 .slider-header {
-	font-size: 30px;
- 	line-height: 60px; 
+	font-weight: 100;
+	font-size: 42.35px;
+ 	line-height: 44.42px; 
 }
 .slider-content-text p {
 	text-align: left;
-	font-size: 22px;
-	line-height: 33px;
-	margin: 0 0 22px 0;
+	font-size: 26.35px;
+	line-height: 44.42px;
+	margin: 0 0 28px 0;
 }
 .slider-content-text a {
 	display: block;
 	border-radius: 2px;
-	width: 50.9%;
+	width: 163px;
 	text-decoration: none;
 	background: url(../images/checkbox.svg) 6% 50% no-repeat #5094f2;
 	text-align: right;
-	background-size: 15% 50%;
+	background-size: 14.11% 56%;
 	margin: 5px 0 0 21px;
-	font-size: 105%;
-    line-height: 211%;	
+	padding-right: 9px;
+	font-size: 22.35px;
+    line-height: 41px;	
 	color: #fff;
 }
 .decorated-content {
-	margin-top: 62px;
+	margin-top: 60px;
 }
 .decorated-container {
 	display: block;
@@ -235,7 +239,7 @@ h3 {
 }
 .decorated-header {
 	color: #5094f2;
-	font-size: 20px;
+	font-size: 20.35px;
 	line-height: 40px;
 	margin: 6% 0 0; 
 }
@@ -246,13 +250,13 @@ h3 {
 .decorated-container p {
 	width: 100%;
 	color: #909090;
-	font-size: 14px;
+	font-size: 14.35px;
 	padding: 0 12%;
 	margin: 0;
 }
 .text-content {
 	max-width: 1024px;
-  	margin: 95px auto 52px;
+  	margin: 97px auto 52px;
   	color: #6f7173;
 }
 .text-container {
@@ -266,14 +270,14 @@ h3 {
 }
 .text-header-right {
 	font-size: 26px;
-	line-height: 50px;
+	line-height: 49px;
 	text-align: left;
 	margin-top: 50px;
 }
 .text-container p {
-	font-size: 15px;
+	font-size: 15.35px;
 	line-height: 33px;
-	padding-right: 76px;
+	padding-right: 46px;
 	margin: 0;
 }
 .text-container img {
@@ -290,7 +294,7 @@ h3 {
 }
 .footer-inner {
 	margin: 0 auto;
-	padding: 33px 0 48px;
+	padding: 31px 0 43px;
 	max-width: 1024px;
   	color: #6f7173;
   	border-top: solid 1px #6c6c6c;
@@ -315,17 +319,11 @@ footer p {
 	height: 40px;
 }
  .nav-list:before {
-    content: "Menu";
+    content: "";
     display: block;
-	font-family: SegoeUI;
-    font-size: 19px;
-    font-weight: bold;
-	color: #fff;
 	background: #5094f2;
-	border-bottom: solid #5094f2 3px;
-	margin: 0 0 10% 0;
-	padding: 14% 0 5% 15%; 
-	height: 84px;
+	margin-bottom: 10%;
+	height: 89px;
 }
 .is-navigation-opened .nav-list {
 	display: block;
@@ -369,7 +367,7 @@ footer p {
 	text-align: left;
     white-space: nowrap;
     border-bottom: solid #5094f2 1px;
- 	transition: background ease 1s, background-color ease 1s;
+ 	transition: background ease 500ms, background-color ease 500ms;
 }
 .nav-list .sub-nav li a:hover {
 	border-bottom: none;
@@ -377,9 +375,30 @@ footer p {
 	background: #5094f2;
 }
 .swiper-container {
-    height: 250px;
+    height: 249px;
 	background: url(../images/baack.png) center no-repeat;
 	background-size: cover;    
+}
+.slider-content img {
+    width: 27.65%;
+    height: 89.2%;
+    top: 55%;
+}
+.slider-header {
+    font-size: 30.98px;
+    line-height: 35.94px;
+}
+.slider-content-text p {
+    font-size: 22.71px;
+    line-height:  35.94px;
+}
+.slider-content-text a {
+	width: 227px;
+	margin: 5px 0 0 0;
+	font-size: 31.08px;
+    line-height: 53px;
+    background: url(../images/checkbox.svg) 7% 65% no-repeat #5094f2;
+    background-size: 15% 70%;
 }
 .decorated-content {
 	max-width: 1024px;
@@ -389,15 +408,14 @@ footer p {
 	display: block;
 	width: 100%;
 	text-align: center;
-    padding-bottom: 3%;
-    padding-top: 3%;
+    padding: 26px 0 18px;
     border-bottom: solid #cccccc 1px;
 }
 .decorated-header {
 	text-align: left;
-	font-size: 27px;
-	line-height: 64.8px;
-	margin: 2.5% 17% 0 34.4%;
+	font-size: 34.13px;
+	line-height: 60.54px;
+	margin: 2.5% 17% 0 32.8%;
 }
 .decorated-container img {
 	display: block;
@@ -409,9 +427,9 @@ footer p {
 .decorated-container p {
 	width: auto;
 	color: #909090;
-	font-size: 15.3px;
+	font-size: 19.35px;
 	text-align: left;
-	margin: 0 17%  0 34.4%;
+	margin: 0 12%  0 32.8%;
 	padding: 0;
 }
 .decorated-container a {
@@ -419,7 +437,7 @@ footer p {
 	color: #5094f2;
 }
 .text-content {
-	margin: 46px auto;
+	margin: 49px auto;
 } 
 
 .text-container {
@@ -434,8 +452,16 @@ footer p {
 .text-container img {
 	width: 220px; 
 	height: 166px; 
-	margin: 0 auto;
+	margin: 4px auto 0;
 	padding-top: 33px;
+}
+.text-header-right {
+    font-size: 34.35px;
+	margin: 15px auto 13px;
+}
+.text-container p {
+    font-size: 17.35px;
+    line-height: 36px;
 }
 .footer-inner {
     padding:  33px 0;
