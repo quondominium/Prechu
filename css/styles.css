@@ -206,7 +206,7 @@ h3 {
     padding: 9px 12px 10px 44px;
 }
 .slider-content-text a:hover {
-	background: #d94748 url(../images/checkbox.svg) no-repeat 15px / 33px 33px;
+	background: #d94748 url(../images/checkbox.svg) no-repeat 11px / 23px 23px;
 }
 .swiper-button-prev {
 	background-image: url(../images/l_arrow.png);
@@ -394,6 +394,9 @@ footer p {
 	font-size: 31px;
     background: #5094f2 url(../images/checkbox.svg) no-repeat 15px / 33px 33px;
     padding: 7px 12px 13px 61px;
+}
+.slider-content-text a:hover {
+	background: #d94748 url(../images/checkbox.svg) no-repeat 15px / 33px 33px;
 }
 .swiper-button-prev {
     top: 0;
