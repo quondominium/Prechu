@@ -175,7 +175,6 @@ h3 {
 	width: 345px;
 	height: 436px;
 	float: left;
-	background: url(../images/iphone.png) no-repeat;
 }
 .slider-content-text {
 	color: #fff;
@@ -366,8 +365,11 @@ footer p {
 .slider-img {
     width: 177px;
     height: 223px;
-    background: url(../images/iphone_small.png) no-repeat;
     margin-left: 37px;
+}
+.slider-img  img {
+    width: 177px;
+    height: 223px;
 }
 .slider-header {
     font-size: 31px;
