@@ -171,10 +171,15 @@ h3 {
 	margin: 0 auto;
 	padding: 40px 10px 0;
 }
+.slider-img {
+	float: left;
+}
 .slider-img  img {
 	width: 345px;
 	height: 436px;
-	float: left;
+	vertical-align: middle;
+	max-width: 100%;
+	height: auto;
 }
 .slider-content-text {
 	color: #fff;
@@ -204,23 +209,28 @@ h3 {
     line-height: 1;
     color: #fff;
     padding: 9px 12px 10px 44px;
+    transition: background ease 300ms;
 }
 .slider-content-text a:hover {
 	background: #d94748 url(../images/checkbox.svg) no-repeat 11px / 23px 23px;
 }
-.swiper-button-prev {
-	background-image: url(../images/l_arrow.png);
+.swiper-button-prev, .swiper-button-next {
     background-size: 25px auto;
     height: 63px;
     margin-top: 0;
     transform: translateY(-50%);
+    transition: opacity 300ms ease;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+	opacity: 0.8
+}
+.swiper-button-prev {
+	background-image: url(../images/l_arrow.png);
 }
 .swiper-button-next {
 	background-image: url(../images/r_arrow.png);
-    background-size: 25px auto;
-    height: 63px;
-    margin-top: 0;
-    transform: translateY(-50%);
 }
 .decorated-content {
 	margin-top: 60px;
@@ -398,6 +408,7 @@ footer p {
 	font-size: 31px;
     background: #5094f2 url(../images/checkbox.svg) no-repeat 15px / 33px 33px;
     padding: 7px 12px 13px 61px;
+    transition: background ease 300ms;
 }
 .slider-content-text a:hover {
 	background: #d94748 url(../images/checkbox.svg) no-repeat 15px / 33px 33px;
