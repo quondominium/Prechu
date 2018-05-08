@@ -210,13 +210,17 @@ h3 {
 }
 .swiper-button-prev {
 	background-image: url(../images/l_arrow.png);
+    background-size: 25px auto;
     height: 63px;
-    top: 231px;
+    margin-top: 0;
+    transform: translateY(-50%);
 }
 .swiper-button-next {
 	background-image: url(../images/r_arrow.png);
+    background-size: 25px auto;
     height: 63px;
-    top: 231px;
+    margin-top: 0;
+    transform: translateY(-50%);
 }
 .decorated-content {
 	margin-top: 60px;
