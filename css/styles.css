@@ -171,7 +171,7 @@ h3 {
 	margin: 0 auto;
 	padding: 40px 10px 0;
 }
-.slider-img {
+.slider-img  img {
 	width: 345px;
 	height: 436px;
 	float: left;
@@ -204,6 +204,16 @@ h3 {
     line-height: 1;
     color: #fff;
     padding: 9px 12px 10px 44px;
+}
+.swiper-button-prev {
+	background-image: url(../images/l_arrow.png);
+    height: 63px;
+    top: 231px;
+}
+.swiper-button-next {
+	background-image: url(../images/r_arrow.png);
+    height: 63px;
+    top: 231px;
 }
 .decorated-content {
 	margin-top: 60px;
@@ -362,14 +372,10 @@ footer p {
 .slider-content {
 	padding-top: 22px;
 }
-.slider-img {
+.slider-img img {
     width: 177px;
     height: 223px;
     margin-left: 37px;
-}
-.slider-img  img {
-    width: 177px;
-    height: 223px;
 }
 .slider-header {
     font-size: 31px;
@@ -386,9 +392,19 @@ footer p {
     background: #5094f2 url(../images/checkbox.svg) no-repeat 15px / 33px 33px;
     padding: 7px 12px 13px 61px;
 }
+.slider-content-text a:hover {
+	background: #d94748;
+}
+.swiper-button-prev {
+    top: 0;
+    visibility: hidden;
+}
+.swiper-button-next {
+    top: 0;
+    visibility: hidden;
+}
 .decorated-content {
-	max-width: 1024px;
-	margin: 6px auto 0 auto;
+	background: #5094f2
 }
 .decorated-container {
 	display: block;
@@ -450,4 +466,4 @@ footer p {
 .footer-inner {
     padding:  33px 0;
 }
-}		
+}	
