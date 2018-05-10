@@ -458,16 +458,13 @@ footer p {
 }
 .slider-content-text {
 	line-height: 36px;
+	font-size: 23px;
 }
 .slider-header {
     font-size: 31px;
 }
-.slider-content-text p {
-    font-size: 23px;
-}
 .slider-content-text a {
     margin: 0;
-    font-size: 23px;
     background-position: 13px 50%;
     background-size: 23px auto;
     padding: 6px 8px 9px 51px;
