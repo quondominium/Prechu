@@ -408,12 +408,10 @@ footer p {
     transition: background ease 300ms;
 }
 .swiper-button-prev {
-    top: 0;
-    visibility: hidden;
+    display: none;
 }
 .swiper-button-next {
-    top: 0;
-    visibility: hidden;
+    display: none;
 }
 .decorated-content {
 	background: #5094f2
