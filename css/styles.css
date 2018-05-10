@@ -399,7 +399,8 @@ footer p {
 .slider-content-text a {
 	margin: 0;
 	font-size: 31px;
-    background: #5094f2 url(../images/checkbox.svg) no-repeat 15px / 33px 33px;
+    background-position: 15px 50%;
+	background-size: 33px auto;
     padding: 7px 12px 13px 61px;
     transition: background ease 300ms;
 }
