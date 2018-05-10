@@ -480,6 +480,8 @@ footer p {
 .slider-content-text {
 	top: 45%;
 	width: 150px;
+    font-size: 14px;
+    line-height: 20px;
 }
 .slider-header {
     font-size: 16px;
@@ -488,8 +490,6 @@ footer p {
 .slider-content-text p {
     margin: 0 0 14px;
     font-weight: 100;
-    font-size: 14px;
-    line-height: 20px;
 }
 .slider-content-text a {
 	font-size: 16px;
