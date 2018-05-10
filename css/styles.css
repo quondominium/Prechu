@@ -173,10 +173,9 @@ h3 {
 }
 .slider-img {
 	float: left;
+	width: 345px;
 }
 .slider-img  img {
-	width: 345px;
-	height: 436px;
 	vertical-align: middle;
 	max-width: 100%;
 	height: auto;
