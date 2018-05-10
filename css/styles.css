@@ -386,12 +386,10 @@ footer p {
 	background-size: cover;    
 }
 .slider-content {
-	padding-top: 22px;
+    padding:  22px 10px 0 47px;
 }
-.slider-img img {
+.slider-img {
     width: 177px;
-    height: 223px;
-    margin-left: 37px;
 }
 .slider-header {
     font-size: 31px;
