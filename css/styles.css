@@ -24,9 +24,6 @@ html, body, .page-container{
     clear: both;
     display: table;
 }
-h3 {
-	margin: 0;
-}
 .page-container {
     display: table;
     width: 100%;
@@ -147,13 +144,11 @@ h3 {
 .btn-hamburger:before{
     top: 10px;
     left: 10px;	
-    transform: rotate(0deg);
 	transition:  transform ease 500ms;     
 }
 .btn-hamburger:after{
     bottom: 10px;
     left: 10px;	
-    transform: rotate(0deg);
 	transition:  transform ease 500ms; 
 }
 .slider .container {
@@ -168,6 +163,7 @@ h3 {
 .slider-content {
 	position: relative;
 	max-width: 840px;
+    height: 100%;
 	margin: 0 auto;
 	padding: 40px 10px 0;
 }
@@ -192,7 +188,7 @@ h3 {
 .slider-header {
 	font-weight: 100;
 	font-size: 42px;
-    margin-bottom: 5px;
+    margin: 0 0 5px;
 }
 .slider-content-text p {
 	max-width: 250px;
@@ -215,13 +211,12 @@ h3 {
 }
 .swiper-button-prev, .swiper-button-next {
     background: url(../images/spritesheet.png) no-repeat; 
-	background-size: 50px 63px;;
+	background-size: 50px 63px;
     height: 63px;
     margin-top: 0;
     transform: translateY(-50%);
     transition: opacity 300ms ease;
 }
-
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
 	opacity: 0.8
@@ -319,13 +314,12 @@ footer p {
 .btn-hamburger{
         display: block;
     }
-
+.nav {
+	height: 40px;
+}
 .nav-list{
     display: none;
     transition: width ease 300ms;
-}
-.nav {
-	height: 40px;
 }
  .nav-list:before {
     content: "";
@@ -403,7 +397,6 @@ footer p {
     line-height:  36px;
 }
 .slider-content-text a {
-	max-width: 234px;
 	margin: 0;
 	font-size: 31px;
     background: #5094f2 url(../images/checkbox.svg) no-repeat 15px / 33px 33px;
@@ -484,7 +477,6 @@ footer p {
 @media all and (max-width: 480px){
 .slider-content {
     padding: 37px 10px 0 10px;
-    height: 100%;
 }
 .slider-img {
     width: 140px;
