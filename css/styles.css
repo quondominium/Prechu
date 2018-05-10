@@ -310,7 +310,7 @@ html, body, .page-container{
 footer p {	
 	margin: 0;
 }
-@media all and (min-width: 481px) and (max-width: 767px)  {
+@media all and (max-width: 767px)  {
 .btn-hamburger{
         display: block;
     }
@@ -403,10 +403,7 @@ footer p {
 	background-size: 33px auto;
     padding: 7px 12px 13px 61px;
 }
-.swiper-button-prev {
-    display: none;
-}
-.swiper-button-next {
+.swiper-button-prev, .swiper-button-next {
     display: none;
 }
 .decorated-content {
@@ -473,7 +470,6 @@ footer p {
     padding:  33px 0;
 }
 }
-
 @media all and (max-width: 480px){
 .slider-content {
     padding: 37px 10px 0 10px;
