@@ -310,7 +310,7 @@ html, body, .page-container{
 footer p {	
 	margin: 0;
 }
-@media all and (max-width: 767px) and (min-width: 480px)  {
+@media all and (max-width: 767px) {
 .btn-hamburger{
         display: block;
     }
@@ -382,27 +382,6 @@ footer p {
 	background: url(../images/baack.png) center no-repeat;
 	background-size: cover;    
 }
-.slider-content {
-    padding:  22px 10px 0 47px;
-}
-.slider-img {
-    width: 177px;
-}
-.slider-header {
-    font-size: 31px;
-    line-height: 36px;
-}
-.slider-content-text p {
-    font-size: 23px;
-    line-height:  36px;
-}
-.slider-content-text a {
-	margin: 0;
-	font-size: 31px;
-    background-position: 15px 50%;
-	background-size: 33px auto;
-    padding: 7px 12px 13px 61px;
-}
 .swiper-button-prev, .swiper-button-next {
     display: none;
 }
@@ -470,7 +449,30 @@ footer p {
     padding:  33px 0;
 }
 }
-@media all and (max-width: 480px){
+@media all and (max-width: 767px) and (min-width: 480px)  {
+.slider-content {
+    padding:  22px 10px 0 47px;
+}
+.slider-img {
+    width: 177px;
+}
+.slider-header {
+    font-size: 31px;
+    line-height: 36px;
+}
+.slider-content-text p {
+    font-size: 23px;
+    line-height:  36px;
+}
+.slider-content-text a {
+	margin: 0;
+	font-size: 31px;
+    background-position: 15px 50%;
+	background-size: 33px auto;
+    padding: 7px 12px 13px 61px;
+}
+}
+@media all and (max-width: 479px){
 .slider-content {
     padding: 37px 10px 0 10px;
 }
