@@ -212,7 +212,7 @@ h3 {
     transition: background ease 300ms;
 }
 .slider-content-text a:hover {
-	background: #d94748 url(../images/checkbox.svg) no-repeat 11px / 23px 23px;
+	background-color: #d94748;
 }
 .swiper-button-prev, .swiper-button-next {
     background-size: 25px auto;
@@ -409,9 +409,6 @@ footer p {
     background: #5094f2 url(../images/checkbox.svg) no-repeat 15px / 33px 33px;
     padding: 7px 12px 13px 61px;
     transition: background ease 300ms;
-}
-.slider-content-text a:hover {
-	background: #d94748 url(../images/checkbox.svg) no-repeat 15px / 33px 33px;
 }
 .swiper-button-prev {
     top: 0;
