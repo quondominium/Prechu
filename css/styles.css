@@ -456,13 +456,14 @@ footer p {
 .slider-img {
     width: 177px;
 }
+.slider-content-text {
+	line-height: 36px;
+}
 .slider-header {
     font-size: 31px;
-    line-height: 36px;
 }
 .slider-content-text p {
     font-size: 23px;
-    line-height:  36px;
 }
 .slider-content-text a {
 	margin: 0;
