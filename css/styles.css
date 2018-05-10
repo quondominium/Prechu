@@ -310,7 +310,7 @@ html, body, .page-container{
 footer p {	
 	margin: 0;
 }
-@media all and (max-width: 767px){
+@media all and (min-width: 481px) and (max-width: 767px)  {
 .btn-hamburger{
         display: block;
     }
