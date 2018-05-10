@@ -228,13 +228,11 @@ h3 {
 }
 .swiper-button-prev {
 	width: 25px;
-    height: 63px;
-	background-position: 2px 0;
+	background-position: 0 0;
 }
 .swiper-button-next {
 	width: 25px;
-    height: 63px;
-    background-position: -27px 0;
+    background-position: -25px 0;
 }
 .decorated-content {
 	margin-top: 60px;
