@@ -498,5 +498,6 @@ footer p {
 	background-position: 7px 42%;
 	background-size: 16px auto;
     padding: 4px 6px 7px 31px;
+    margin-left: 0px;
 }
 }
