@@ -387,9 +387,6 @@ footer p {
 .swiper-button-prev, .swiper-button-next {
     display: none;
 }
-.decorated-content {
-	background: #5094f2
-}
 .decorated-container {
 	display: block;
 	width: 100%;
