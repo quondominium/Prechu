@@ -466,11 +466,11 @@ footer p {
     font-size: 23px;
 }
 .slider-content-text a {
-	margin: 0;
-	font-size: 31px;
-    background-position: 15px 50%;
-	background-size: 33px auto;
-    padding: 7px 12px 13px 61px;
+    margin: 0;
+    font-size: 23px;
+    background-position: 13px 50%;
+    background-size: 23px auto;
+    padding: 6px 8px 9px 51px;
 }
 }
 @media all and (max-width: 479px){
