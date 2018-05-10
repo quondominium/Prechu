@@ -12,6 +12,8 @@ html{
     font: 12px/18px SegoeUI, "Segoe UI Light", Arial, Helvetica, sans-serif;
     background: #fff;
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 html, body, .page-container{
     height: 100%;
@@ -479,6 +481,7 @@ footer p {
 }
 .slider-content-text {
 	top: 45%;
+	left: 52%;
 	width: 150px;
     font-size: 14px;
     line-height: 20px;
@@ -486,6 +489,7 @@ footer p {
 .slider-header {
     font-size: 16px;
     line-height: 18px;
+    margin: 0 0 9px;
 }
 .slider-content-text p {
     margin: 0 0 14px;
