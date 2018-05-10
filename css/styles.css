@@ -402,7 +402,6 @@ footer p {
     background-position: 15px 50%;
 	background-size: 33px auto;
     padding: 7px 12px 13px 61px;
-    transition: background ease 300ms;
 }
 .swiper-button-prev {
     display: none;
