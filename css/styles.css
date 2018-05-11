@@ -276,40 +276,40 @@ a {
     background-position: -25px 0;
 }
 .decorated-item {
-	width: 33.3%;
+	width: 33.3333%;
  	float: left;
 	text-align: center;
 }
-.item i {
-    width: 186px;
+.ico-container {
+	position: relative;
+	width: 186px;
     height: 186px;
-    font-size: 112px;
-    color: #fff;
-    padding: 37px;
-    margin: auto;
+    margin: 0 auto;
     border-radius: 50%;
-    text-align: center;
-    display: block;
 }
-.item .icon-computer {
-	padding: 52px 42px;
+.ico-container i {
+    color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.ico-container .icon-pencil{
+	font-size: 112px;
+}
+.ico-container .icon-computer {
     font-size: 81px;
 }
-.item .icon-cart {
-	padding: 48px 43px;
+.ico-container .icon-cart {
     font-size: 89px;
 }	
-.decorated-header {
+.item-text .heading {
 	color: #5094f2;
 	font-size: 20px;
 	line-height: 40px;
 	margin: 20px 0 0; 
 }
-.decorated-header a {
-	text-decoration: none;
-	color: #5094f2;
-}
-.decorated-container p {
+.item-text .text {
 	color: #909090;
 	font-size: 14px;
 	padding: 0 40px;
