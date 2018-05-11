@@ -7,6 +7,37 @@
         url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.ttf) format("truetype");
     font-weight: 100;
 }
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.woff?kxbhcy') format('woff');
+  font-weight: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pencil:before {
+  content: "\e900";
+}
+.icon-cart:before {
+  content: "\e901";
+}
+.icon-computer:before {
+  content: "\e902";
+}
+
 html{
     color: #6c6c6c;
     font: 12px/18px SegoeUI, "Segoe UI Light", Arial, Helvetica, sans-serif;
@@ -17,6 +48,9 @@ html{
 }
 html, body, .page-container{
     height: 100%;
+}
+a {
+	text-decoration: unset;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -36,6 +70,15 @@ html, body, .page-container{
  	margin: 0 auto;
  	padding: 0 10px;
  	max-width: 1024px;
+ }
+ .decor-1 {
+ 	background: #5094f2;
+ }
+.decor-2 {
+ 	background: #d94748;
+ }
+ .decor-3 {
+ 	background: #ebbb11;
  }
 .header .container {
 	padding: 29px 25px 0px 31px;
@@ -234,16 +277,30 @@ html, body, .page-container{
 .decorated-content {
 	margin-top: 60px;
 }
-.decorated-container {
-	display: block;
+.decorated-item {
 	width: 33.3%;
  	float: left;
 	text-align: center;
 }
-.decorated-container img {
-	width: 186px; 
-	height: 186px; 
+.item i {
+    width: 186px;
+    height: 186px;
+    font-size: 112px;
+    color: #fff;
+    padding: 37px;
+    margin: auto;
+    border-radius: 50%;
+    text-align: center;
+    display: block;
 }
+.item .icon-computer {
+	padding: 52px 42px;
+    font-size: 81px;
+}
+.item .icon-cart {
+	padding: 48px 43px;
+    font-size: 89px;
+}	
 .decorated-header {
 	color: #5094f2;
 	font-size: 20px;
