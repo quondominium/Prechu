@@ -284,7 +284,7 @@ a {
 	position: relative;
 	width: 186px;
     height: 186px;
-    margin: 0 auto;
+    margin: 0 auto 20px;
     border-radius: 50%;
 }
 .ico-container i {
@@ -307,7 +307,7 @@ a {
 	color: #5094f2;
 	font-size: 20px;
 	line-height: 40px;
-	margin: 20px 0 0; 
+	margin: 0 0; 
 }
 .item-text .text {
 	color: #909090;
