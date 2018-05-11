@@ -9,11 +9,13 @@
 }
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.woff?kxbhcy') format('woff');
+  src:  url('../fonts/icomoon.woff?jekwm3') format('woff');
   font-weight: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+.icon-pencil:before, .icon-cart:before, .icon-computer:before, .icon-checkbox:before {
+  /* I: More targeting selectors in compare with default values [class^="icon-"], [class*=" icon-"]; */
+
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
@@ -22,10 +24,6 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 .icon-pencil:before {
@@ -36,6 +34,9 @@
 }
 .icon-computer:before {
   content: "\e902";
+}
+.icon-checkbox:before {
+  content: "\e903";
 }
 
 html{
@@ -150,7 +151,6 @@ a {
     float: right;
     width: 58px;
     height: 44px;
-    background: #5094f2;
     cursor: pointer;
 	border-radius: 2px;
 }
@@ -169,8 +169,8 @@ a {
 	bottom: 18px;
 	transform: rotate(45deg);
 }
-.is-active .hamburger-icon {
-	visibility: hidden;	
+.btn-hamburger.is-active .hamburger-icon {
+	opacity: 0;	
 }
 .btn-hamburger .hamburger-icon,
 .btn-hamburger:before,
@@ -240,17 +240,25 @@ a {
 	max-width: 250px;
 	margin: 0 0 28px;
 }
+.slider-content-text .icon-checkbox:before {
+    display: inline-block;
+    margin-left: -33px;
+    padding-right: 10px;
+    font-size: 23px;
+    line-height: 20px;
+}
+.slider-content-text .decor-1 {
+	transition: background ease 300ms;
+}
 .slider-content-text a {
     display: inline-block;
     border-radius: 2px;
     text-decoration: none;
-    background: #5094f2 url(../images/checkbox.svg) no-repeat 11px / 23px 23px;
     margin-left: 21px;
     font-size: 22px;
     line-height: 1;
     color: #fff;
     padding: 9px 12px 10px 44px;
-    transition: background ease 300ms;
 }
 .slider-content-text a:hover {
 	background-color: #d94748;
@@ -554,5 +562,11 @@ footer p {
 	background-size: 16px auto;
     padding: 4px 6px 7px 31px;
     margin-left: 0px;
+}
+.slider-content-text .icon-checkbox:before {
+	margin-left: -24px;
+	padding-right: 8px;
+	font-size: 16px;
+	line-height: 14px;
 }
 }
