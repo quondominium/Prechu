@@ -204,6 +204,7 @@ a {
     height: 493px;
 	background: url(../images/teeth.png) left bottom repeat-x, url(../images/baack.png) no-repeat;  
  	transition: height ease 1s;
+ 	margin-bottom: 60px;
 }
 .slider-content {
 	position: relative;
@@ -273,9 +274,6 @@ a {
 .swiper-button-next {
 	width: 25px;
     background-position: -25px 0;
-}
-.decorated-content {
-	margin-top: 60px;
 }
 .decorated-item {
 	width: 33.3%;
