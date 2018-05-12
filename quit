@@ -1,0 +1,608 @@
+[33mcommit 685b5051fafcc8cdfbccbd8506875f8ef3a5e10f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: quondominium <quondominium@users.noreply.github.com>
+Date:   Sat May 12 03:14:25 2018 +0300
+
+    checkbox position for mobile version
+
+[33mcommit 5cf9200cbd40e00e76049cb059a7b287179fd879[m
+Author: quondominium <quondominium@users.noreply.github.com>
+Date:   Sat May 12 02:59:04 2018 +0300
+
+    Revert "Revert "icofont ico adding, changing swiper checkbox style, small fixes""
+    
+    This reverts commit ad8ede61175506508cbd8a445172751270e74e11.
+
+[33mcommit ad8ede61175506508cbd8a445172751270e74e11[m
+Author: quondominium <quondominium@users.noreply.github.com>
+Date:   Sat May 12 02:58:24 2018 +0300
+
+    Revert "icofont ico adding, changing swiper checkbox style, small fixes"
+    
+    This reverts commit 462234f39633b5c2958878f11ed3b6b13d1bb047.
+
+[33mcommit 462234f39633b5c2958878f11ed3b6b13d1bb047[m
+Author: quondominium <quondominium@users.noreply.github.com>
+Date:   Sat May 12 02:53:12 2018 +0300
+
+    icofont ico adding, changing swiper checkbox style, small fixes
+    
+    changing swiper checkbox style - for all versions
+    changing icofont selectors to more targetable view, same to .btn-hamburger.is-active.
+    adding decor-1 class to needing tags
+    removed:
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    for icomoon font (added global)
+
+[33mcommit c9061b831b58bb3fd69107e8c04be1dc9cc4028f[m
+Author: quondominium <quondominium@users.noreply.github.com>
+Date:   Fri May 11 19:35:22 2018 +0300
+
+    add
+
+[33mcommit 57b67b65e7e92e003202bb254d1a7bee942aa643[m
+Author: quondominium <quondominium@users.noreply.github.com>
+Date:   Fri May 11 19:22:20 2018 +0300
+
+    add
+
+[33mcommit b907b06479e29356ebd408a7841c4bdb00a2ec56[m
+Author: quondominium <quondominium@users.noreply.github.com>
+Date:   Fri May 11 18:47:49 2018 +0300
+
+    add
+
+[33mcommit 51b5b67d3c952366507920280e67365342ca1ebd[m
+Merge: c4ca0e7 65d6bba
+Author: quondominium <quondominium@users.noreply.github.com>
+Date:   Fri May 11 18:30:39 2018 +0300
+
+    Merge branch 'master' of https://github.com/quondominium/Prechu
+
+[33mcommit c4ca0e74182dc775b178be44d8792789de4388ca[m
+Author: quondominium <quondominium@users.noreply.github.com>
+Date:   Fri May 11 18:30:02 2018 +0300
+
+    add
+
+[33mcommit 65d6bba91870e8e0e07e1e4794a205e8c32afb3e[m
+Author: quondominium <39192269+quondominium@users.noreply.github.com>
+Date:   Fri May 11 16:28:51 2018 +0300
+
+    Update README.md
+
+[33mcommit 1c678160d7274618e7dfc4998fa620df26d12d2b[m
+Author: quondominium <39192269+quondominium@users.noreply.github.com>
+Date:   Fri May 11 16:23:35 2018 +0300
+
+    Update README.md
+
+[33mcommit 6db197309e6debda5a770a9ecce82ea39693a11b[m
+Author: quondominium <39192269+quondominium@users.noreply.github.com>
+Date:   Fri May 11 16:22:53 2018 +0300
+
+    Update README.md
+
+[33mcommit bc82d4f9095363024ef8b1cc783654890fd7726d[m
+Author: quondominium <39192269+quondominium@users.noreply.github.com>
+Date:   Fri May 11 16:19:39 2018 +0300
+
+    Update README.md
+
+[33mcommit 6c48e43f1fffe80d8e566b6408883770cbb62a97[m
+Author: quondominium <39192269+quondominium@users.noreply.github.com>
+Date:   Fri May 11 16:18:51 2018 +0300
+
+    Update README.md
+
+[33mcommit 13b4146975b40be00c26e4d47b45784a2a77e941[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Fri May 11 11:57:51 2018 +0300
+
+    add
+
+[33mcommit 20359dd8079527ba715c148f879e094dcf36dd94[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Fri May 11 11:52:07 2018 +0300
+
+    add
+
+[33mcommit fbb424fac5da11dc080f75793da3a0a1a988da3b[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Fri May 11 11:09:58 2018 +0300
+
+    add
+
+[33mcommit 15e6273143211a6d5b6bbafdf02b0f9f0390bd19[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 10 19:51:22 2018 +0300
+
+    add
+
+[33mcommit 5070f53136221f504cc6c701f5f51da67a9ee94d[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 10 19:29:46 2018 +0300
+
+    add
+
+[33mcommit a6201ee922722be09e0bc0049448eb970f0c62da[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 10 18:59:35 2018 +0300
+
+    add
+
+[33mcommit 1bd4da2fb4de6454ae14620d3399286aa610c28d[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 10 18:44:28 2018 +0300
+
+    add
+
+[33mcommit 7aab4738a69f2de505d44b072567bcaf39593270[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 10 18:42:24 2018 +0300
+
+    add
+
+[33mcommit 0367cd9c208a280db022c71b54f95824c430ed20[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 10 18:38:39 2018 +0300
+
+    add_sld_btn
+
+[33mcommit 5590d23ea9b774fe6e900ae7b484f52685268112[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 10 18:32:28 2018 +0300
+
+    add
+
+[33mcommit 4c75d5341587e235e55e1aab30a108156f9ae40e[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 10 17:59:39 2018 +0300
+
+    add
+
+[33mcommit 0228feeac1bd6cd349bd85a5dd40b6b7ba3cec1d[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 10 17:57:23 2018 +0300
+
+    add
+
+[33mcommit b050b7e6aa3bc00286373c488703b3c3e3f39915[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 10 17:34:45 2018 +0300
+
+    add
+
+[33mcommit 41e5993b382b35bb9f45fdd1b8ee058cd589b5b2[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 10 17:09:35 2018 +0300
+
+    add
+
+[33mcommit 18ae00a5812c3f9c6dc774cd5b28506c8c0dd8cb[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 10 16:26:21 2018 +0300
+
+    add
+
+[33mcommit 18c5594ed390652edb9d26fb4cfffb06f59de4b7[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 10 16:22:07 2018 +0300
+
+    add
+
+[33mcommit 6c793bde08b06856770d2467ea78e83aa1851e57[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 10 16:18:10 2018 +0300
+
+    add
+
+[33mcommit 1291818e84c7272b77d45126db98661843b59b00[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 10 16:13:28 2018 +0300
+
+    add
+
+[33mcommit b3dba72d0cdc65119f3d93928457396fa42c0368[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 10 16:07:25 2018 +0300
+
+    add
+
+[33mcommit 880cd3d1b7e8fe2b219838b36a98c174f280b1da[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 10 16:03:24 2018 +0300
+
+    add
+
+[33mcommit b11f49c792b4d8ab1c64ebbd81b4a8e326fc1053[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 10 15:44:51 2018 +0300
+
+    add
+
+[33mcommit 8882e808c572fb883f12b40bea9d440452be5d33[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 10 15:27:46 2018 +0300
+
+    add
+
+[33mcommit 06a921c870485def9133ed761eba34e5a175eb8a[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 10 15:02:19 2018 +0300
+
+    add
+
+[33mcommit e35ec5bafaf0bc273df78b12ab64c3f11cf262c5[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 10 13:35:12 2018 +0300
+
+    add
+
+[33mcommit 31280a85d2a60aa75ae570cea1c1f956f8f5acfe[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 10 13:26:59 2018 +0300
+
+    add
+
+[33mcommit 3d4f4c79be406526afa98fec71e8abf3547a806d[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 10 12:21:56 2018 +0300
+
+    add
+
+[33mcommit 114cdee3adfa6ebd87e0051f79bdbeb461285aa0[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 10 11:56:34 2018 +0300
+
+    add
+
+[33mcommit 691e2e0c2cb6c1f34833d5744b5c148f5704ca86[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 10 11:42:46 2018 +0300
+
+    add
+
+[33mcommit 20ecb20b84584b4d8821cf11fb9f3df5477be7be[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 10 11:24:18 2018 +0300
+
+    add
+
+[33mcommit f37d65693544d35f381cd73141ddefe60b3449fa[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 10 10:55:56 2018 +0300
+
+    add
+
+[33mcommit 8e6a01e3cad9c8388fa53d0c6d0fb4790029fec5[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Tue May 8 18:41:35 2018 +0300
+
+    add
+
+[33mcommit a8fc71ccf6164c78286ca8c2c5d12de8d586f6c4[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Tue May 8 18:15:16 2018 +0300
+
+    add
+
+[33mcommit 6dba84eb6c1cb963b2785b1d4a1debed3c4ee05a[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Tue May 8 18:06:05 2018 +0300
+
+    add
+
+[33mcommit f1e663994710f48d4a7beaeeb606464e35283a55[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Tue May 8 18:02:31 2018 +0300
+
+    add
+
+[33mcommit 4287b4a1693d33f26ef2cad1c0deff9b446ceddd[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Tue May 8 17:57:39 2018 +0300
+
+    add
+
+[33mcommit b783910fce9ef2b263baf4545bfb97270bdeb54c[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Tue May 8 15:46:00 2018 +0300
+
+    add
+
+[33mcommit 6340af126cb2f28285eaaa8bc5433c0cb65aaaf4[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Tue May 8 02:32:22 2018 +0300
+
+    add
+
+[33mcommit 59155df37bd611cfc19a84703923946ba7414917[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Mon May 7 17:46:05 2018 +0300
+
+    add
+
+[33mcommit 0935bd35017747d75d876d9b9ac26734a6ba8c63[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Mon May 7 17:24:33 2018 +0300
+
+    add
+
+[33mcommit 6eb5b98ca91a5a80d17caaa898e4cd25fccf6062[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Mon May 7 17:12:45 2018 +0300
+
+    add
+
+[33mcommit 864eeb0c31d7a5d0fbf53495f6e5e92e47c8e660[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Mon May 7 15:33:00 2018 +0300
+
+    add
+
+[33mcommit 4cdaa8c0c7cdc2340f6325098cc606e3cbb4fbc7[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Mon May 7 14:35:16 2018 +0300
+
+    add
+
+[33mcommit 5e2496ceb469ee343a16d6aabcb2bf55e86182a4[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Mon May 7 14:17:04 2018 +0300
+
+    add
+
+[33mcommit e28dac7f24b88054b7b7b51fe1e2be98b6fa2524[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Mon May 7 13:43:58 2018 +0300
+
+    add
+
+[33mcommit d8a47e6e00463d13977cb19211f147c9a594740c[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Mon May 7 11:21:06 2018 +0300
+
+    add
+
+[33mcommit 4a8a9ddbd8f590221f48098124a4aae73cfd4503[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Mon May 7 11:13:58 2018 +0300
+
+    add
+
+[33mcommit 644f1f14adecf28b71ced6d05fad1404d7ef356b[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Mon May 7 05:06:57 2018 +0300
+
+    add
+
+[33mcommit bd502d27fd4393a851aecdb7582333b21796c654[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Sun May 6 21:21:37 2018 +0300
+
+    add
+
+[33mcommit 2eff30462c486e2ffd1ced9e659b1eaf5e2f5e52[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Sun May 6 17:25:48 2018 +0300
+
+    add
+
+[33mcommit e9fcf03eb63a13fdc502c4630b11b76b5475870c[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Sun May 6 15:52:46 2018 +0300
+
+    add
+
+[33mcommit 24e27e3d9d92f2198758498e5e417cd169e57018[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Sun May 6 15:40:01 2018 +0300
+
+    add
+
+[33mcommit 009a016c48c0a7717eca1fc54e433c4ec05054c8[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Sat May 5 19:41:53 2018 +0300
+
+    add
+
+[33mcommit 0d3944dcae409d18c76d8078fac63aaf6a66be99[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Sat May 5 18:05:35 2018 +0300
+
+    add
+
+[33mcommit 6e24cbe307b89c5c6f4b5e2a93b8c9abdb80e03e[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Sat May 5 18:00:50 2018 +0300
+
+    add
+
+[33mcommit 9035ab9eb87acb0e7d8322356a1181aa21c74cec[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Sat May 5 17:59:02 2018 +0300
+
+    add
+
+[33mcommit 29afa911ddf5c0f35fe4d4aae43e6abf9b04bfdc[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Sat May 5 17:43:45 2018 +0300
+
+    add
+
+[33mcommit 59af86107bcbef8630b7cb0b0e8df8c75b062964[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Sat May 5 17:40:30 2018 +0300
+
+    17:40
+
+[33mcommit ccc7f4749b7621bb5e18ab49238fbf52ebec3a4b[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Sat May 5 15:34:25 2018 +0300
+
+    :34
+
+[33mcommit a1376aeb85760454fdf694505b00f369462e8c56[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Sat May 5 15:26:26 2018 +0300
+
+    15:26
+
+[33mcommit 7d09510a8a0c2581f4152ea839a901be88376627[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Sat May 5 15:21:30 2018 +0300
+
+    15:21
+
+[33mcommit 1bac5795666b520d8e7c9da7d5da60ad5aa203bc[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Sat May 5 15:11:43 2018 +0300
+
+    15:11
+
+[33mcommit 95c4f4f248dc632a14ad6fecf8abf263b566920c[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Sat May 5 15:06:37 2018 +0300
+
+    15:06
+
+[33mcommit 52d32b3885d255cc85677f8fadbeaf26e7f83264[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Sat May 5 13:52:18 2018 +0300
+
+    1
+
+[33mcommit 01b496f3b2802ba74a73186e76d2776ac006168c[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Sat May 5 13:48:18 2018 +0300
+
+    1
+
+[33mcommit 4b676781d81aab54960270123cfdd71e1c8107f2[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Sat May 5 13:31:28 2018 +0300
+
+    1
+
+[33mcommit afdc3e0fdb46facd0dc84f5dc0f46d937abd9f94[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Sat May 5 13:27:39 2018 +0300
+
+    1
+
+[33mcommit 5c7ae30cceebc69d5300774d9b6711aa5cae8a61[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Sat May 5 13:14:54 2018 +0300
+
+    +1
+
+[33mcommit 5de8e384e5bee9bcb515db5acfa441b6568e2d04[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Sat May 5 13:12:05 2018 +0300
+
+    +1
+
+[33mcommit 1100210be8c4237cb93dd455470d4534063cb62f[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Sat May 5 13:10:01 2018 +0300
+
+    13.09
+
+[33mcommit bf28004fc3ee218efa45caecfb173f8e8d1ee787[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Fri May 4 21:50:43 2018 +0300
+
+    font resize
+
+[33mcommit 1165f8782de9b4eaefe4961590b8356986fab9bd[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Fri May 4 21:16:46 2018 +0300
+
+    21.16
+
+[33mcommit 371472f29d110112cecbdfd624876648f768a20b[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Fri May 4 17:05:27 2018 +0300
+
+    1
+
+[33mcommit 0b4307a9bc0ae0ecbb27ee6a64443a74f9ba7148[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Fri May 4 16:40:19 2018 +0300
+
+    1
+
+[33mcommit 6607bd9a80a3d68dedf570bfd46491da5a9d9c76[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Fri May 4 16:35:29 2018 +0300
+
+    pre
+
+[33mcommit e546b8fb51376cf9c8bd4fcb71385380abb269b7[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Fri May 4 16:35:03 2018 +0300
+
+    pre
+
+[33mcommit 79a3855e97c71fbb5f4138858868f7c398f32936[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 3 17:53:18 2018 +0300
+
+    17:53
+
+[33mcommit 2054d95f6e356f99540166423f273174b9998707[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 3 17:49:39 2018 +0300
+
+    17:49
+
+[33mcommit 7bb37ec0abc6013c47d40626f660b4d95a34db71[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 3 17:48:22 2018 +0300
+
+    Revert "17:38"
+    
+    This reverts commit dfcdefef328abe314f64e1372e4f78221f31dee4.
+
+[33mcommit dfcdefef328abe314f64e1372e4f78221f31dee4[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Thu May 3 17:38:21 2018 +0300
+
+    17:38
+
+[33mcommit 64e69d60295c6185893fc2adacb1ec2d09e67d7b[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Wed May 2 21:21:04 2018 +0300
+
+    21:20
+
+[33mcommit 1856c7e2ba1554a2a093e921b063654ade922d14[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Wed May 2 14:36:38 2018 +0300
+
+    14:36
+
+[33mcommit b6c7f4fb3f9f4aeab119bb7b75ca8ec4f4c536a1[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Wed May 2 14:34:41 2018 +0300
+
+    14:34
+
+[33mcommit 3a8e5d107e039f65f070af6dba1e4b4bf746d160[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Wed May 2 14:10:21 2018 +0300
+
+    14:10
+
+[33mcommit 1fa92eb9ea6a7ac57015f81bf603416fdea97dda[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Wed May 2 13:23:29 2018 +0300
+
+    prech
+
+[33mcommit f76fff3f0225031ffcd33569189859c48f85e212[m
+Author: fnkndq <fnkndq@users.noreply.github.com>
+Date:   Wed May 2 13:18:18 2018 +0300
+
+    Initial commit
