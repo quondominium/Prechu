@@ -526,10 +526,14 @@ footer p {
 .slider-header {
     font-size: 31px;
 }
+.slider-content-text .icon-checkbox:before {
+	margin-left: -35px;
+    padding-right: 18px;
+    font-size: 23px;
+    line-height: 20px;
+}
 .slider-content-text a {
     margin: 0;
-    background-position: 13px 50%;
-    background-size: 23px auto;
     padding: 6px 8px 9px 51px;
 }
 }
@@ -558,8 +562,6 @@ footer p {
 }
 .slider-content-text a {
 	font-size: 16px;
-	background-position: 7px 42%;
-	background-size: 16px auto;
     padding: 4px 6px 7px 31px;
     margin-left: 0px;
 }
