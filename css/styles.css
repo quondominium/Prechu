@@ -540,12 +540,12 @@ footer p {
     font-size: 31px;
 }
 .slider-content-text .icon-checkbox:before {
-	margin-left: -35px;
-    padding-right: 18px;
+	margin-left: -32px;
+	padding-right: 15px;
 }
 .slider-content-text a {
     margin: 0;
-    padding: 6px 8px 9px 51px;
+    padding: 6px 8px 9px 45px;
 }
 
 .ico-container {
