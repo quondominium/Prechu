@@ -246,6 +246,7 @@ a {
     padding-right: 10px;
     font-size: 23px;
     line-height: 20px;
+    vertical-align: bottom;
 }
 .slider-content-text .decor-1 {
 	transition: background ease 300ms;
