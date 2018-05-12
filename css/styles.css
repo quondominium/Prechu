@@ -313,15 +313,15 @@ a {
 }	
 .item-text {
 	color: #909090;
+	font-size: 14px;
+	line-height: 1;
 }
 .item-text .heading {
 	color: #5094f2;
 	font-size: 20px;
-	line-height: 1;
 	margin: 0 0 10px; 
 }
 .item-text .text {
-	font-size: 14px;
 	margin: 0 40px;
 }
 .text-content {
@@ -446,10 +446,28 @@ footer p {
 .swiper-container {
     height: 249px;
 	background: url(../images/baack.png) center no-repeat;
-	background-size: cover;    
+	margin-bottom: 0px;  
 }
 .swiper-button-prev, .swiper-button-next {
     display: none;
+}
+.decorated-item {
+	width: 100%;
+	padding: 26px 0 18px;
+    border-bottom: solid #cccccc 1px;
+}
+.ico-container {
+	width: 136px;
+	height: 136px;
+}
+.ico-container .icon-pencil{
+	font-size: 78px;
+}
+.ico-container .icon-computer {
+    font-size: 60px;
+}
+.ico-container .icon-cart {
+    font-size: 70px;
 }
 .decorated-container {
 	display: block;
@@ -457,12 +475,6 @@ footer p {
 	text-align: center;
     padding: 26px 0 18px;
     border-bottom: solid #cccccc 1px;
-}
-.decorated-header {
-	text-align: left;
-	font-size: 34px;
-	line-height: 60px;
-	margin: 16px 106px 0 204px;
 }
 .decorated-container img {
 	display: block;
@@ -536,6 +548,24 @@ footer p {
     margin: 0;
     padding: 6px 8px 9px 51px;
 }
+
+.ico-container {
+	float: left;
+	margin: 0 0 0 33px;
+}
+.item-text {
+	overflow: hidden;
+	padding-left: 24px;
+	font-size: 19px;
+	text-align: left;
+}
+.item-text .heading {
+	font-size: 34px;
+	margin: 21px 106px 10px 0;
+}
+.item-text .text {
+	margin: 0 76px 0 0;
+}
 }
 @media all and (max-width: 479px){
 .slider-content {
@@ -571,4 +601,8 @@ footer p {
 	font-size: 16px;
 	line-height: 14px;
 }
+.ico-container {
+	margin: 0 auto 10px;
+}
+
 }
