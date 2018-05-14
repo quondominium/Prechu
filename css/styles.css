@@ -244,6 +244,7 @@ a {
 	display: inline-block;
 	font-size: 23px;
 	vertical-align: bottom;
+	margin-right: 10px;
 }
 .slider-text .decor-1 {
 	transition: background ease 300ms;
@@ -257,9 +258,6 @@ a {
     line-height: 1;
     color: #fff;
     padding: 9px 12px 10px 11px;
-}
-.btn span {
-	margin-left: 10px;
 }
 .slider-text .btn:hover {
 	background-color: #d94748;
@@ -291,6 +289,7 @@ a {
 	width: 33.3333%;
  	float: left;
 	text-align: center;
+	padding: 0 40px;
 }
 .ico-container {
 	position: relative;
@@ -325,9 +324,6 @@ a {
 	margin: 0 0 10px; 
 	line-height: 1;
 }
-.item-text .text {
-	margin: 0 40px;
-}
 .text-content {
   	margin: 0 auto 52px;
   	color: #6f7173;
@@ -338,16 +334,13 @@ a {
 .text-content .heading-art {
 	float: left;
 	width: 371px;
-	margin-right: 65px;
+	margin:  0 65px 0 0;
 }
 .text-content .heading-art .heading {
 	font-size: 42px;
 	line-height: 1;
 	text-align: center;
-	margin: 0;
-}
-.text-content .heading-art .art {
-	padding-top: 35px;
+	margin: 0 0 35px;
 }
 .text-content .heading-art .art img {
 	vertical-align: middle;
@@ -358,13 +351,13 @@ a {
     overflow: hidden;
 	font-size: 15px;
 	line-height: 36px;
+	padding-top: 55px;
 }
 .text-container .heading {
 	font-size: 26px;
 	line-height: 1;
 	text-align: left;
-	padding: 55px 0 21px;
-	margin: 0;
+	margin: 0 0 21px;
 }
 .text-container .text {
 	margin: 0;
@@ -455,6 +448,9 @@ a {
 	color: #fff;
 	background: #5094f2;
 }
+.slider {
+    margin-bottom: 0;
+}
 .swiper-container {
     height: 249px;
 	background: url(../images/back.png) center no-repeat;
@@ -494,6 +490,7 @@ a {
 }
 .text-container {
 	overflow: visible;
+	padding-top: 0px;
 }
 }
 @media all and (max-width: 767px) and (min-width: 480px)  {
@@ -510,12 +507,12 @@ a {
 .slider-text .heading {
     font-size: 31px;
 }
+.icon-tick {
+	margin-right: 15px;
+}
 .btn {
     margin: 0;
     padding: 6px 8px 9px 13px;
-}
-.btn span {
-	margin-left: 15px;
 }
 .decorated-content {
 	margin-bottom: 47px;
@@ -550,7 +547,7 @@ a {
 	font-size: 34px;
 }
 .text-content {
-	margin: 47px auto 42px;
+	margin: 0 auto 42px;
 } 
 .text-container {
 	font-size: 17px;
@@ -558,15 +555,16 @@ a {
 }
 .text-container .heading {
     font-size: 34px;
-    padding: 20px 0 24px;
+    margin-bottom: 24px;
 }
 .text-content .heading-art {
-    padding-right: 19px;
-    margin-right: 0px;
+	margin: 0 19px 20px 0;
+}
+.text-content .heading-art .heading {
+	margin-bottom: 43px;
 }
 .text-content .heading-art .art {
 	width: 215px;
-	padding-top: 43px;
 	transition: width ease 500ms;
 }
 .footer .container {
@@ -598,14 +596,12 @@ a {
 }
 .icon-tick {
 	font-size: 16px;
+	margin-right: 8px;
 }
 .btn {
 	font-size: 16px;
     padding: 4px 6px 7px 7px;
     margin-left: 0px;
-}
-.btn span {
-	margin-left: 8px;
 }
 .decorated-content {
 	margin-bottom: 23px;
@@ -645,15 +641,14 @@ a {
 	padding: 0 33px 0 42px;
 }
 .text-content .heading-art {
-	padding-right: 9px;
-	margin-right: 0px;
+	margin: 0 9px 10px 0;
 }
 .text-content .heading-art .heading {
 	font-size: 21px;
+	margin-bottom: 21px;
 }
 .text-content .heading-art .art {
 	width: 107px;
-	padding-top: 21px;
 	transition: width ease 500ms;
 }
 .text-container {
@@ -662,7 +657,7 @@ a {
 }
 .text-container .heading {
     font-size: 17px;
-    padding: 10px 0 12px;
+    margin-bottom: 12px;
 }
 .footer .container {
     padding:  16px 0 17px;
