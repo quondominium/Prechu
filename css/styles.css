@@ -104,6 +104,9 @@ a {
 	margin-left: 42px;
 	line-height: 1;
 }
+.nav-list > li:first-child{
+	margin-left: 0;
+}
 .nav-list li:hover .sub-nav { 
 	display: block;
 }
@@ -389,6 +392,9 @@ a {
 }
 .nav-list > li {
     padding: 0 21px 21px;
+}
+.nav-list > li:first-child {
+     margin-left: 10px;
 }
  .nav-list:before {
     content: "";
