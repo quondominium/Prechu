@@ -78,11 +78,12 @@ a {
  	background: #ebbb11;
  }
 .header .container {
-	padding: 29px 25px 0 31px;
+	padding-top: 29px;
 }
 .logo {
 	float: left;
 	width: 178px;
+	margin-left: 31px;
 }
 .logo img {
 	vertical-align: middle;
@@ -91,7 +92,7 @@ a {
 }
 .nav {
 	float: right;
-	padding-top: 22px;	
+	margin: 22px 25px 0 0;	
 }
 .nav ul {
 	list-style: none;
@@ -101,7 +102,7 @@ a {
 .nav-list > li {
 	position: relative;
 	display: inline-block;
-	padding: 0 21px;
+	margin: 0 21px;
 	line-height: 1;
 }
 .nav-list li:hover .sub-nav { 
@@ -196,9 +197,6 @@ a {
 }
 .slider {
  	margin-bottom: 60px;
-}
-.slider .container {
-	padding: 0;
 }
 .swiper-container {
 	width: 100%;
@@ -453,6 +451,9 @@ a {
 }
 .slider {
     margin-bottom: 0;
+}
+.slider .container {
+	padding: 0;
 }
 .swiper-container {
     height: 249px;
