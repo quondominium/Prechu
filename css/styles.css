@@ -9,13 +9,11 @@
 }
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.woff?jekwm3') format('woff');
+  src:  url('../fonts/icomoon.woff?3iphfd') format('woff');
   font-weight: normal;
 }
 
-.icon-pencil:before, .icon-cart:before, .icon-computer:before, .icon-checkbox:before {
-  /* I: More targeting selectors in compare with default values [class^="icon-"], [class*=" icon-"]; */
-
+[class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
@@ -25,7 +23,6 @@
   text-transform: none;
   line-height: 1;
 }
-
 .icon-pencil:before {
   content: "\e900";
 }
@@ -35,10 +32,9 @@
 .icon-computer:before {
   content: "\e902";
 }
-.icon-checkbox:before {
+.icon-ticker:before {
   content: "\e903";
 }
-
 html{
     color: #6c6c6c;
     font: 12px/18px SegoeUI, "Segoe UI Light", Arial, Helvetica, sans-serif;
@@ -95,7 +91,7 @@ a {
 }
 .nav {
 	float: right;
-	margin-top: 22px;	
+	padding-top: 22px;	
 }
 .nav ul {
 	list-style: none;
@@ -105,21 +101,23 @@ a {
 .nav-list > li {
 	position: relative;
 	display: inline-block;
-	padding: 0 21px 21px;
-/*	line-height: 1; */
+	padding: 0 21px;
+	line-height: 1;
 }
 .nav-list li:hover .sub-nav { 
 	display: block;
 }
 .nav-list li a {
+	display: inline-block;
 	padding-bottom: 16px;
 	color: #6c6c6c;
 	text-decoration: none;
     font-size: 16px; 
- 	transition: border-bottom ease 300ms;    
+    border-bottom: solid transparent 5px;
+ 	transition: border-color ease 300ms;    
 	}
 .nav-list li a:hover {
-	border-bottom: solid #5094f2 5px; 
+	border-color: #5094f2; 
 }
 .nav .sub-nav {
 	display: none;
@@ -132,17 +130,17 @@ a {
 }
 .sub-nav li a {
 	display: block;
+	border-bottom: none;
 	padding: 20px;	
 	background: #fff;
 	color: #6c6c6c;
     white-space: nowrap;
- 	transition: background ease 1s, background-color ease 1s;
+ 	transition: background-color ease 1s;
 }
 .sub-nav li a:hover {
-	border-bottom: none;
 	color: #fff;
-	background: #5094f2;	
-	}
+	background-color: #5094f2;	
+}
 .btn-hamburger{
 	display: none;
     position: relative;
@@ -157,7 +155,7 @@ a {
 .btn-hamburger.is-active {
 	display: block;
 	position: fixed;
-    right: 35px;
+    right: 25px;
     top: 29px;
 	z-index: 17;
 }
@@ -189,12 +187,12 @@ a {
 .btn-hamburger:before{
     top: 10px;
     left: 10px;	
-	transition:  transform ease 500ms;     
+	transition:  transform ease 300ms;     
 }
 .btn-hamburger:after{
     bottom: 10px;
     left: 10px;	
-	transition:  transform ease 500ms; 
+	transition:  transform ease 300ms; 
 }
 .slider .container {
 	padding: 0;
@@ -202,7 +200,7 @@ a {
 .swiper-container {
 	width: 100%;
     height: 493px;
-	background: url(../images/teeth.png) left bottom repeat-x, url(../images/baack.png) no-repeat;  
+	background: url(../images/teeth.png) left bottom repeat-x, url(../images/back.png) no-repeat;  
  	transition: height ease 1s;
  	margin-bottom: 60px;
 }
@@ -222,7 +220,7 @@ a {
 	max-width: 100%;
 	height: auto;
 }
-.slider-content-text {
+.slider-text {
 	color: #fff;
 	position: absolute;
 	top: 50%;
@@ -231,16 +229,16 @@ a {
 	font-size: 26px;
 	line-height: 44px;
 }
-.slider-header {
+.slider-text .heading {
 	font-weight: 100;
 	font-size: 42px;
     margin: 0 0 5px;
 }
-.slider-content-text p {
+.slider-text p {
 	max-width: 250px;
 	margin: 0 0 28px;
 }
-.slider-content-text .icon-checkbox:before {
+.slider-text .icon-ticker:before {
     display: inline-block;
     margin-left: -33px;
     padding-right: 10px;
@@ -248,10 +246,10 @@ a {
     line-height: 20px;
     vertical-align: bottom;
 }
-.slider-content-text .decor-1 {
+.slider-text .decor-1 {
 	transition: background ease 300ms;
 }
-.slider-content-text a {
+.slider-text a {
     display: inline-block;
     border-radius: 2px;
     text-decoration: none;
@@ -261,7 +259,7 @@ a {
     color: #fff;
     padding: 9px 12px 10px 44px;
 }
-.slider-content-text a:hover {
+.slider-text a:hover {
 	background-color: #d94748;
 }
 .swiper-button-prev, .swiper-button-next {
@@ -315,12 +313,12 @@ a {
 .item-text {
 	color: #909090;
 	font-size: 14px;
-	line-height: 1;
 }
 .item-text .heading {
 	color: #5094f2;
 	font-size: 20px;
 	margin: 0 0 10px; 
+	line-height: 1;
 }
 .item-text .text {
 	margin: 0 40px;
@@ -378,21 +376,22 @@ footer p {
 	margin: 0;
 }
 @media all and (max-width: 767px) {
+.header .container {
+	padding-bottom: 18px;
+}
 .btn-hamburger{
-        display: block;
-    }
-.nav {
-	height: 40px;
+    display: block;
 }
 .nav-list{
     display: none;
-    transition: width ease 300ms;
+}
+.nav-list > li {
+    padding: 0 21px 21px;
 }
  .nav-list:before {
     content: "";
     display: block;
 	background: #5094f2;
-	margin-bottom: 32px;
 	height: 91px;
 }
 .is-navigation-opened .nav-list {
@@ -408,6 +407,12 @@ footer p {
 	background: #fff;
 	z-index: 16;
 }
+.nav-list li:first-child {
+	padding-top: 32px;
+}
+.nav-list .sub-nav li:first-child {
+	padding-top: 0;
+}
 .nav-list > li {
 	display: block;
 	margin-left: 10px;
@@ -417,12 +422,10 @@ footer p {
 }
 .nav-list li a {
 	display: block;
+	padding-bottom: 14px;
     font-size: 14px;
-    transition: border-bottom ease 300ms;      
+    border-bottom: solid transparent 3px;    
 	}
-.nav-list li a:hover {
-	border-bottom: solid #5094f2 3px; 
-}
 .nav-list .sub-nav {
 	display: none;
 	z-index: 17; 		
@@ -435,18 +438,17 @@ footer p {
 	padding: 20px;	
 	background: #fff;
 	text-align: left;
-    white-space: nowrap;
     border-bottom: solid #5094f2 1px;
- 	transition: background ease 500ms, background-color ease 500ms;
+ 	transition: background ease 500ms;
 }
 .nav-list .sub-nav li a:hover {
-	border-bottom: none;
+	border-bottom: solid transparent 1px;
 	color: #fff;
 	background: #5094f2;
 }
 .swiper-container {
     height: 249px;
-	background: url(../images/baack.png) center no-repeat;
+	background: url(../images/back.png) center no-repeat;
 	margin-bottom: 0px;  
 }
 .swiper-button-prev, .swiper-button-next {
@@ -469,32 +471,6 @@ footer p {
 }
 .ico-container .icon-cart {
     font-size: 70px;
-}
-.decorated-container {
-	display: block;
-	width: 100%;
-	text-align: center;
-    padding: 26px 0 18px;
-    border-bottom: solid #cccccc 1px;
-}
-.decorated-container img {
-	display: block;
- 	float: left;
-	width: 146px; 
-	height: 146px;
-	margin-left: 43px; 	
-}
-.decorated-container p {
-	width: auto;
-	color: #909090;
-	font-size: 19px;
-	text-align: left;
-	margin: 0 75px  0 204px;
-	padding: 0;
-}
-.decorated-container a {
-	text-decoration: none;
-	color: #5094f2;
 }
 .text-content {
 	margin: 49px auto;
@@ -532,38 +508,41 @@ footer p {
 .slider-img {
     width: 177px;
 }
-.slider-content-text {
+.slider-text {
 	line-height: 36px;
 	font-size: 23px;
 }
-.slider-header {
+.slider-text .heading {
     font-size: 31px;
 }
-.slider-content-text .icon-checkbox:before {
+.slider-text .icon-ticker:before {
 	margin-left: -32px;
 	padding-right: 15px;
 }
-.slider-content-text a {
+.slider-text a {
     margin: 0;
     padding: 6px 8px 9px 45px;
 }
-
+.decorated-item {
+	padding-left: 33px;
+}
 .ico-container {
 	float: left;
-	margin: 0 0 0 33px;
+	margin: 0;
 }
 .item-text {
 	overflow: hidden;
-	padding-left: 24px;
+	padding: 21px 0 0 24px;
 	font-size: 19px;
+	line-height: 23px;
 	text-align: left;
 }
 .item-text .heading {
 	font-size: 34px;
-	margin: 21px 106px 10px 0;
+	margin: 0 106px 10px 0;
 }
 .item-text .text {
-	margin: 0 76px 0 0;
+	margin: 0 86px 0 0;
 }
 }
 @media all and (max-width: 479px){
@@ -573,28 +552,28 @@ footer p {
 .slider-img {
     width: 140px;
 }
-.slider-content-text {
+.slider-text {
 	top: 45%;
 	left: 52%;
 	width: 150px;
     font-size: 14px;
     line-height: 20px;
 }
-.slider-header {
+.slider-text .heading {
     font-size: 16px;
     line-height: 18px;
     margin: 0 0 9px;
 }
-.slider-content-text p {
+.slider-text p {
     margin: 0 0 14px;
     font-weight: 100;
 }
-.slider-content-text a {
+.slider-text a {
 	font-size: 16px;
     padding: 4px 6px 7px 31px;
     margin-left: 0px;
 }
-.slider-content-text .icon-checkbox:before {
+.slider-text .icon-ticker:before {
 	margin-left: -24px;
 	padding-right: 8px;
 	font-size: 16px;
@@ -603,5 +582,4 @@ footer p {
 .ico-container {
 	margin: 0 auto 10px;
 }
-
 }
