@@ -325,25 +325,28 @@ a {
 	margin: 0 0 10px; 
 	line-height: 1;
 }
+.item-text .text {
+	margin: 0;
+}
 .text-content {
   	margin: 0 auto 52px;
   	color: #6f7173;
 }
 .text-content .container {
-	padding: 0 	56px 0 75px;
+	max-width: 913px;
 }
-.text-content .heading-art {
+.heading-art {
 	float: left;
 	width: 371px;
-	margin:  0 65px 0 0;
+	margin-right: 65px;
 }
-.text-content .heading-art .heading {
+.heading-art .heading {
 	font-size: 42px;
-	line-height: 1;
+	line-height: 1.2;
 	text-align: center;
 	margin: 0 0 35px;
 }
-.text-content .heading-art .art img {
+.art img {
 	vertical-align: middle;
 	max-width: 100%;
 	height: auto;
@@ -356,8 +359,7 @@ a {
 }
 .text-container .heading {
 	font-size: 26px;
-	line-height: 1;
-	text-align: left;
+	line-height: 1.2;
 	margin: 0 0 21px;
 }
 .text-container .text {
@@ -478,15 +480,14 @@ a {
 	font-weight: 600;
 	text-align: left;
 	vertical-align: middle;
-}
-.item-text .text {
 	margin: 0;
 }
-.text-content .heading-art {
+.heading-art {
 	float: none;
     width: auto;
+    margin-right: 0;
 }
-.text-content .heading-art .art {
+.heading-art .art {
 	margin: 0 auto;
 }
 .text-container {
@@ -551,6 +552,19 @@ a {
 .text-content {
 	margin: 0 auto 42px;
 } 
+.text-content .container {
+	max-width: 530px;
+}
+.heading-art {
+	margin-bottom: 20px;
+}
+.heading-art .heading {
+	margin-bottom: 43px;
+}
+.heading-art .art {
+	width: 215px;
+	transition: width ease 500ms;
+}
 .text-container {
 	font-size: 17px;
 	line-height: 34px; 
@@ -558,16 +572,6 @@ a {
 .text-container .heading {
     font-size: 34px;
     margin-bottom: 24px;
-}
-.text-content .heading-art {
-	margin: 0 19px 20px 0;
-}
-.text-content .heading-art .heading {
-	margin-bottom: 43px;
-}
-.text-content .heading-art .art {
-	width: 215px;
-	transition: width ease 500ms;
 }
 .footer .container {
     padding:  33px 0 35px;
@@ -640,16 +644,16 @@ a {
 	margin: 0 auto 21px;
 }
 .text-content .container {
-	padding: 0 33px 0 42px;
+	max-width: 265px;
 }
-.text-content .heading-art {
-	margin: 0 9px 10px 0;
+.heading-art {
+	margin-bottom: 10px;
 }
-.text-content .heading-art .heading {
+.heading-art .heading {
 	font-size: 21px;
 	margin-bottom: 21px;
 }
-.text-content .heading-art .art {
+.heading-art .art {
 	width: 107px;
 	transition: width ease 500ms;
 }
