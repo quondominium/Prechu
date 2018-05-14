@@ -83,7 +83,6 @@ a {
 .logo {
 	float: left;
 	width: 178px;
-	margin-left: 31px;
 }
 .logo img {
 	vertical-align: middle;
@@ -92,7 +91,7 @@ a {
 }
 .nav {
 	float: right;
-	margin: 22px 25px 0 0;	
+	margin-top: 22px;	
 }
 .nav ul {
 	list-style: none;
@@ -102,7 +101,7 @@ a {
 .nav-list > li {
 	position: relative;
 	display: inline-block;
-	margin: 0 21px;
+	margin-left: 42px;
 	line-height: 1;
 }
 .nav-list li:hover .sub-nav { 
