@@ -194,6 +194,9 @@ a {
     left: 10px;	
 	transition:  transform ease 300ms; 
 }
+.slider {
+ 	margin-bottom: 60px;
+}
 .slider .container {
 	padding: 0;
 }
@@ -202,7 +205,6 @@ a {
     height: 493px;
 	background: url(../images/teeth.png) left bottom repeat-x, url(../images/back.png) no-repeat;  
  	transition: height ease 1s;
- 	margin-bottom: 60px;
 }
 .slider-content {
 	position: relative;
@@ -238,18 +240,17 @@ a {
 	max-width: 250px;
 	margin: 0 0 28px;
 }
-.slider-text .icon-ticker:before {
-    display: inline-block;
-    margin-left: -33px;
-    padding-right: 10px;
-    font-size: 23px;
-    line-height: 20px;
-    vertical-align: bottom;
+.slider-text .icon-ticker {
+	display: inline-block;
+	font-size: 23px;
+	line-height: 20px;
+	padding-right: 10px;
+	vertical-align: bottom;
 }
 .slider-text .decor-1 {
 	transition: background ease 300ms;
 }
-.slider-text a {
+.slider-text .btn {
     display: inline-block;
     border-radius: 2px;
     text-decoration: none;
@@ -257,9 +258,9 @@ a {
     font-size: 22px;
     line-height: 1;
     color: #fff;
-    padding: 9px 12px 10px 44px;
+    padding: 9px 12px 10px 11px;
 }
-.slider-text a:hover {
+.slider-text .btn:hover {
 	background-color: #d94748;
 }
 .swiper-button-prev, .swiper-button-next {
@@ -281,6 +282,9 @@ a {
 .swiper-button-next {
 	width: 25px;
     background-position: -25px 0;
+}
+.decorated-content {
+	margin-bottom: 97px;
 }
 .decorated-item {
 	width: 33.3333%;
@@ -324,14 +328,16 @@ a {
 	margin: 0 40px;
 }
 .text-content {
-  	margin: 97px auto 52px;
+  	margin: 0 auto 52px;
   	color: #6f7173;
+}
+.text-content .container {
+	padding: 0 	56px 0 75px;
 }
 .text-content .heading-art {
 	float: left;
 	width: 371px;
-	box-sizing: content-box;
-	padding: 0 65px;
+	margin-right: 65px;
 }
 .text-content .heading-art .heading {
 	font-size: 42px;
@@ -360,14 +366,13 @@ a {
 	margin: 0;
 }
 .text-container .text {
-	padding-right: 46px;
 	margin: 0;
 }
 .footer {
     position: relative;
     display: table-footer-group;
 }
-.footer-inner {
+.footer .container {
 	padding: 31px 0 43px;
 	color: #909090;
 	border-top: solid 1px #e5e5e5;
@@ -504,15 +509,19 @@ a {
 .slider-text .heading {
     font-size: 31px;
 }
-.slider-text .icon-ticker:before {
+.slider-text .icon-ticker {
 	margin-left: -32px;
 	padding-right: 15px;
 }
-.slider-text a {
+.slider-text .btn {
     margin: 0;
     padding: 6px 8px 9px 45px;
 }
+.decorated-content {
+	margin-bottom: 47px;
+}
 .decorated-item {
+	padding-right: 86px;
 	padding-left: 43px;
 }
 .ico-container {
@@ -540,14 +549,10 @@ a {
 .item-text .heading {
 	font-size: 34px;
 }
-.item-text .text {
-	padding-right: 86px;
-}
 .text-content {
 	margin: 47px auto 42px;
 } 
 .text-container {
-	padding-left: 65px;
 	font-size: 17px;
 	line-height: 34px; 
 }
@@ -555,12 +560,16 @@ a {
     font-size: 34px;
     padding: 20px 0 24px;
 }
+.text-content .heading-art {
+    padding-right: 19px;
+    margin-right: 0px;
+}
 .text-content .heading-art .art {
 	width: 215px;
 	padding-top: 43px;
 	transition: width ease 500ms;
 }
-.footer-inner {
+.footer .container {
     padding:  33px 0 35px;
 }
 }
@@ -587,18 +596,22 @@ a {
     margin: 0 0 14px;
     font-weight: 100;
 }
-.slider-text a {
+.slider-text .btn {
 	font-size: 16px;
     padding: 4px 6px 7px 31px;
     margin-left: 0px;
 }
-.slider-text .icon-ticker:before {
+.slider-text .icon-ticker {
 	margin-left: -24px;
 	padding-right: 8px;
 	font-size: 16px;
 	line-height: 14px;
 }
+.decorated-content {
+	margin-bottom: 23px;
+}
 .decorated-item {
+	padding-right: 43px;
 	padding-left: 21px;
 }
 .ico-container {
@@ -625,11 +638,15 @@ a {
 .item-text .heading {
 	margin: 0 0 5px;
 }
-.item-text .text {
-	padding-right: 43px;
-}
 .text-content {
-	margin: 23px auto 21px;
+	margin: 0 auto 21px;
+}
+.text-content .container {
+	padding: 0 33px 0 42px;
+}
+.text-content .heading-art {
+	padding-right: 9px;
+	margin-right: 0px;
 }
 .text-content .heading-art .heading {
 	font-size: 21px;
@@ -640,7 +657,6 @@ a {
 	transition: width ease 500ms;
 }
 .text-container {
-	padding-left: 32px;
 	font-size: 14px;
 	line-height: 20px;
 }
@@ -648,10 +664,7 @@ a {
     font-size: 17px;
     padding: 10px 0 12px;
 }
-.text-container .text {
-    padding-right: 23px;
-}
-.footer-inner {
+.footer .container {
     padding:  16px 0 17px;
 }
 .copyright {

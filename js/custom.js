@@ -1,3 +1,14 @@
+		  		var mySwiper = new Swiper ('.swiper-container', {
+	/*      			loop: true,
+	      			autoplay: {
+	        		delay: 10000,
+	        		disableOnInteraction: false,
+	      			},*/
+		    		navigation: {
+		      		nextEl: '.swiper-button-next',
+		      		prevEl: '.swiper-button-prev',
+		    		},
+		  		})
 			  function listen() {
 			    var HAMBURGER_ACTIVE = 'is-active';
 			    var NAVIGATION_OPENED = 'is-navigation-opened';
