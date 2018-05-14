@@ -454,23 +454,27 @@ footer p {
 .swiper-button-prev, .swiper-button-next {
     display: none;
 }
+.decorated-content .container {
+	padding: 0;
+}
 .decorated-item {
+	display: table;
 	width: 100%;
 	padding: 26px 0 18px;
+	float: none;
     border-bottom: solid #cccccc 1px;
 }
 .ico-container {
-	width: 136px;
-	height: 136px;
+	margin: 0;
 }
-.ico-container .icon-pencil{
-	font-size: 78px;
+.item-text {
+	display: table-cell;
+	font-weight: 600;
+	text-align: left;
+	vertical-align: middle;
 }
-.ico-container .icon-computer {
-    font-size: 60px;
-}
-.ico-container .icon-cart {
-    font-size: 70px;
+.item-text .text {
+	margin: 0;
 }
 .text-content {
 	margin: 49px auto;
@@ -524,25 +528,35 @@ footer p {
     padding: 6px 8px 9px 45px;
 }
 .decorated-item {
-	padding-left: 33px;
+	padding-left: 43px;
 }
 .ico-container {
-	float: left;
-	margin: 0;
+	width: 136px;
+	height: 136px;
+	transition: width ease 500ms, height ease 500ms;
+}
+.ico-container .icon-pencil {
+	font-size: 78px;
+}
+.ico-container .icon-computer {
+    font-size: 60px;
+}
+.ico-container .icon-cart {
+    font-size: 70px;
+}
+.ico-container .icon-pencil, .ico-container .icon-computer, .ico-container .icon-cart {
+	transition: font-size ease 500ms;
 }
 .item-text {
-	overflow: hidden;
-	padding: 21px 0 0 24px;
+	padding-left: 24px;
 	font-size: 19px;
 	line-height: 23px;
-	text-align: left;
 }
 .item-text .heading {
 	font-size: 34px;
-	margin: 0 106px 10px 0;
 }
 .item-text .text {
-	margin: 0 86px 0 0;
+	padding-right: 86px;
 }
 }
 @media all and (max-width: 479px){
@@ -579,7 +593,34 @@ footer p {
 	font-size: 16px;
 	line-height: 14px;
 }
+.decorated-item {
+	padding-left: 21px;
+}
 .ico-container {
-	margin: 0 auto 10px;
+	width: 68px;
+	height: 68px;
+	transition: width ease 500ms, height ease 500ms;
+}
+.ico-container .icon-pencil {
+    font-size: 39px;
+}
+.ico-container .icon-computer {
+    font-size: 30px;
+}
+.ico-container .icon-cart {
+    font-size: 35px;
+}
+.ico-container .icon-pencil, .ico-container .icon-computer, .ico-container .icon-cart {
+	transition: font-size ease 500ms;
+}
+.item-text {
+	padding-left: 12px;
+	line-height: 16px;
+}
+.item-text .heading {
+	margin: 0 0 5px;
+}
+.item-text .text {
+	padding-right: 43px;
 }
 }
