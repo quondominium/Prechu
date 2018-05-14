@@ -246,7 +246,7 @@ a {
 	vertical-align: bottom;
 	margin-right: 10px;
 }
-.slider-text .decor-1 {
+.slider-text .btn {
 	transition: background ease 300ms;
 }
 .btn {
@@ -288,8 +288,6 @@ a {
 .decorated-item {
 	width: 33.3333%;
  	float: left;
-	text-align: center;
-	padding: 0 40px;
 }
 .ico-container {
 	position: relative;
@@ -317,6 +315,9 @@ a {
 .item-text {
 	color: #909090;
 	font-size: 14px;
+	text-align: center;
+	max-width: 250px;
+    margin: 0 auto;
 }
 .item-text .heading {
 	color: #5094f2;
