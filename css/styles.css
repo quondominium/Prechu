@@ -526,6 +526,7 @@ a {
 	width: 136px;
 	height: 136px;
 	transition: width ease 500ms, height ease 500ms;
+	margin-right: 24px;
 }
 .ico-container .icon-pencil {
 	font-size: 78px;
@@ -540,9 +541,9 @@ a {
 	transition: font-size ease 500ms;
 }
 .item-text {
-	padding-left: 24px;
 	font-size: 19px;
 	line-height: 23px;
+	max-width: none;
 }
 .item-text .heading {
 	font-size: 34px;
@@ -614,6 +615,7 @@ a {
 .ico-container {
 	width: 68px;
 	height: 68px;
+	margin-right: 12px;
 	transition: width ease 500ms, height ease 500ms;
 }
 .ico-container .icon-pencil {
@@ -629,7 +631,6 @@ a {
 	transition: font-size ease 500ms;
 }
 .item-text {
-	padding-left: 12px;
 	line-height: 16px;
 }
 .item-text .heading {
