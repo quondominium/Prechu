@@ -57,6 +57,9 @@ a {
     clear: both;
     display: table;
 }
+.invisible {
+	visibility: hidden;
+}
 .page-container {
     display: table;
     width: 100%;
@@ -240,10 +243,10 @@ a {
 	max-width: 250px;
 	margin: 0 0 28px;
 }
-.icon-tick {
+.btn .icon-tick {
 	display: inline-block;
 	font-size: 23px;
-	vertical-align: bottom;
+	vertical-align: middle;
 	margin-right: 10px;
 }
 .slider-text .btn {
