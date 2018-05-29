@@ -57,9 +57,6 @@ a {
     clear: both;
     display: table;
 }
-.invisible {
-	visibility: hidden;
-}
 .page-container {
     display: table;
     width: 100%;
@@ -161,8 +158,8 @@ a {
 .btn-hamburger.is-active {
 	display: block;
 	position: fixed;
-    right: 25px;
-    top: 29px;
+	right: 10px;
+	top: 29px;
 	z-index: 17;
 }
 .btn-hamburger.is-active:before {
