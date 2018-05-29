@@ -78,7 +78,7 @@ a {
  	background: #ebbb11;
  }
 .header .container {
-	padding-top: 29px;
+	padding: 25px 0 0 28px;
 }
 .logo {
 	float: left;
@@ -91,7 +91,7 @@ a {
 }
 .nav {
 	float: right;
-	margin-top: 22px;	
+	margin-top: 27px;	
 }
 .nav ul {
 	list-style: none;
@@ -101,7 +101,7 @@ a {
 .nav-list > li {
 	position: relative;
 	display: inline-block;
-	margin-left: 42px;
+	margin: 0 25px 0 14px;
 	line-height: 1;
 }
 .nav-list > li:first-child{
@@ -116,6 +116,7 @@ a {
 	color: #6c6c6c;
 	text-decoration: none;
     font-size: 16px; 
+    font-weight: 600;
     border-bottom: solid transparent 5px;
  	transition: border-color ease 300ms;    
 	}
@@ -198,7 +199,7 @@ a {
 	transition:  transform ease 300ms; 
 }
 .slider {
- 	margin-bottom: 60px;
+ 	margin-bottom: 54px;
 }
 .swiper-container {
 	width: 100%;
@@ -211,11 +212,13 @@ a {
 	max-width: 840px;
     height: 100%;
 	margin: 0 auto;
-	padding: 40px 10px 0;
+	padding: 10px 10px 0;
 }
 .slider-img {
-	float: left;
-	width: 345px;
+	position: absolute;
+    top: 51%;
+    transform: translateY(-50%);
+    left: -1%;
 }
 .slider-img  img {
 	vertical-align: middle;
@@ -226,7 +229,7 @@ a {
 	color: #fff;
 	position: absolute;
 	top: 50%;
-	left: 50%;
+	left: 51.4%;
 	transform: translateY(-50%);
 	font-size: 26px;
 	line-height: 44px;
@@ -234,11 +237,11 @@ a {
 .slider-text .heading {
 	font-weight: 100;
 	font-size: 42px;
-    margin: 0 0 5px;
+    margin: 0 0 8px;
 }
 .slider-text p {
 	max-width: 250px;
-	margin: 0 0 28px;
+	margin: 0 0 25px;
 }
 .btn .icon-tick {
 	display: inline-block;
@@ -253,11 +256,11 @@ a {
     display: inline-block;
     border-radius: 2px;
     text-decoration: none;
-    margin-left: 21px;
+    margin-left: 11px;
     font-size: 22px;
     line-height: 1;
     color: #fff;
-    padding: 9px 12px 10px 11px;
+    padding: 8px 12px 8px 11px;
 }
 .slider-text .btn:hover {
 	background-color: #d94748;
@@ -283,7 +286,7 @@ a {
     background-position: -25px 0;
 }
 .decorated-content {
-	margin-bottom: 97px;
+	margin-bottom: 81px;
 }
 .decorated-item {
 	width: 33.3333%;
@@ -293,7 +296,7 @@ a {
 	position: relative;
 	width: 186px;
     height: 186px;
-    margin: 0 auto 30px;
+    margin: 0 auto 22px;
     border-radius: 50%;
 }
 .ico-container i {
@@ -333,12 +336,12 @@ a {
   	color: #6f7173;
 }
 .text-content .container {
-	max-width: 913px;
+	max-width: 943px;
 }
 .heading-art {
 	float: left;
 	width: 371px;
-	margin-right: 65px;
+	margin-right: 85px;
 }
 .heading-art .heading {
 	font-size: 42px;
@@ -355,12 +358,12 @@ a {
     overflow: hidden;
 	font-size: 15px;
 	line-height: 36px;
-	padding-top: 55px;
+	padding-top: 58px;
 }
 .text-container .heading {
-	font-size: 26px;
+	font-size: 27px;
 	line-height: 1.2;
-	margin: 0 0 21px;
+	margin: 0 0 20px;
 }
 .text-container .text {
 	margin: 0;
