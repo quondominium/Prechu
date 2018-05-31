@@ -332,7 +332,7 @@ a {
 	margin: 0;
 }
 .text-content {
-  	margin: 0 auto 52px;
+  	margin-bottom: 52px;
   	color: #6f7173;
 }
 .text-content .container {
@@ -559,7 +559,7 @@ a {
 	font-size: 34px;
 }
 .text-content {
-	margin: 0 auto 42px;
+	margin-bottom: 42px;
 } 
 .text-content .container {
 	max-width: 530px;
@@ -650,7 +650,7 @@ a {
 	margin: 0 0 5px;
 }
 .text-content {
-	margin: 0 auto 21px;
+	margin-bottom: 21px;
 }
 .text-content .container {
 	max-width: 265px;
